@@ -1,0 +1,2259 @@
+# <!=Copyright (C) 2017 VW Themes
+# This file is distributed under the GNU General Public License.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: VW Mobile App Pro 1.0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-28 15:32:59+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: VW Themes <info@vwthemes.com>\n"
+"Language-Team: \n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: ../../vw-mobile-app-pro-plugin\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
+
+#: 404.php:16 
+msgid "404 Not Found"
+msgstr ""
+
+#: 404.php:17 
+msgid "Looks like you have taken a wrong turn &hellip; Don\'t worry &hellip; it happens to the best of us."
+msgstr ""
+
+#: 404.php:20 #: no-results.php:22
+msgid "Back to Home Page"
+msgstr ""
+
+#: archive.php:26 #: category.php:39 #: index.php:27 #: search.php:23 #: tag.php:26
+msgid "Previous page"
+msgstr ""
+
+#: archive.php:27 #: category.php:40 #: index.php:28 #: search.php:24 #: tag.php:27
+msgid "Next page"
+msgstr ""
+
+#: archive.php:28 #: category.php:41 #: index.php:29 #: search.php:25 #: tag.php:28 #: category.php:41
+msgid "Page"
+msgstr ""
+
+#: comments.php:22 
+msgid "One thought on"
+msgstr ""
+
+#: comments.php:22 #: comments.php:30
+msgid "comments title"
+msgstr ""
+
+#: comments.php:41 #: comments.php:60
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:43 #: comments.php:62
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:44 #: comments.php:63
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:54
+msgid "Reply"
+msgstr ""
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr ""
+
+#: content.php:28
+msgid "Read More"
+msgstr ""
+
+#: content.php:35 #: image.php:50
+msgid "Pages"
+msgstr ""
+
+#: content.php:32 #: functions.php:311
+msgid "Continue reading"
+msgstr ""
+
+#: functions.php:36
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:49
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:50 #: functions.php:59
+msgid "Appears on blog page sidebar"
+msgstr ""
+
+#: functions.php:58
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:59
+msgid "Appears on page sidebar"
+msgstr ""
+
+#: functions.php:67
+msgid "Footer Column 1"
+msgstr ""
+
+#: functions.php:68 #: functions.php:77 #: functions.php:86 #: functions.php:95
+msgid "Appears on footer"
+msgstr ""
+
+#: functions.php:76
+msgid "Footer Column 2"
+msgstr ""
+
+#: functions.php:85
+msgid "Footer Column 3"
+msgstr ""
+
+#: functions.php:94
+msgid "Footer Column 4"
+msgstr ""
+
+#: functions.php:261
+msgid "Design & Developed by"
+msgstr ""
+
+#: functions.php:332
+msgid "Recent Posts"
+msgstr ""
+
+#: image.php:28 #: image.php:55
+msgid "Edit"
+msgstr ""
+
+#: template-parts/home/slider.php:49 #: single.php:65 #: image.php:33
+#: inc/posttype-templates/single-service.php:22 
+#: inc/posttype-templates/single-team.php:46 
+#: inc/posttype-templates/single-testimonial.php:30
+#: inc/posttype-templates/single-work.php:35
+msgid "Next"
+msgstr ""
+
+#: image.php:32 #: single.php:68 #: inc/posttype-templates/single-service.php:25
+#: inc/posttype-templates/single-team.php:49 
+#: inc/posttype-templates/single-testimonial.php:33
+#: inc/posttype-templates/single-work.php:38
+#: template-parts/home/slider.php:45
+msgid "Previous"
+msgstr ""
+
+#: no-results.php:11
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:14
+msgid "Ready to publish your first post"
+msgstr ""
+
+#: no-results.php:16
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords"
+msgstr ""
+
+#: no-results.php:19
+msgid "Don\'t worry &hellip; it happens to the best of us"
+msgstr ""
+
+#: searchform.php:10
+msgid "Search &hellip"
+msgid "Placeholder"
+msgstr ""
+
+#: searchform.php:12
+msgid "Search"
+msgid "submit button"
+msgstr ""
+
+#: sidebar.php:11
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:17
+msgid "Meta"
+msgstr ""
+
+#: single.php:30
+msgid "0 Comments"
+msgstr ""
+
+#: single.php:30
+msgid "0 % Comments"
+msgstr ""
+
+#: single.php:40
+msgid "Share"
+msgstr ""
+
+#: single.php:57
+msgid "Categories"
+msgstr ""
+
+#: single.php:66 #: inc/posttype-templates/single-service.php:23
+#: inc/posttype-templates/single-team.php:47 
+#: inc/posttype-templates/single-testimonial.php:31
+#: inc/posttype-templates/single-work.php:36
+msgid "Next post"
+msgstr ""
+
+#: single.php:69 #: inc/posttype-templates/single-service.php:26
+#: inc/posttype-templates/single-team.php:50
+#: inc/posttype-templates/single-testimonial.php:34
+#: inc/posttype-templates/single-work.php:39
+msgid "Previous post"
+msgstr ""
+
+#: inc/posttype-templates/single-team.php:22
+#: inc/posttype-templates/single-testimonial.php:23
+msgid "Designation"
+msgstr ""
+
+#: inc/posttype-templates/single-team.php:25 #: inc/widget/contact-widget.php:230 
+#: inc/customizer-part-footer.php:203
+msgid "Email"
+msgstr ""
+
+#: inc/posttype-templates/single-team.php:28
+msgid "Call"
+msgstr ""
+
+#: inc/posttype-templates/single-work.php:29
+msgid "Check the Work Here"
+msgstr ""
+
+#: inc/getstarted/demo-importer.php:589
+msgid "Click on the below content to get demo content installed"
+msgstr ""
+
+#: inc/getstarted/demo-importer.php:590
+msgid "Please take backup if your website is already live with data.This importer will fill the VW Mobile App Pro new customizer values"
+msgstr ""
+
+#: inc/getstarted/demo-importer.php:593
+msgid "Run Importer"
+msgstr ""
+
+#: inc/getstarted/getstart.php:5 
+msgid "Get Started"
+msgstr ""
+
+#: inc/getstarted/getstart.php:14
+msgid "Thanks for installing VW Mobile App Pro, you rock!"
+msgstr ""
+
+#: inc/getstarted/getstart.php:15
+msgid "VW Mobile App Pro now supports colors, typography custom links for custom post types. Take benefit of a variety of features, functionalities, elements, and an exclusive set of customization options to build your own professional website"
+msgstr ""
+
+#: inc/getstarted/getstart.php:16
+msgid "Please Click on the link below to know the theme setup information"
+msgstr ""
+
+#: inc/getstarted/getstart.php:17
+msgid "Getting Started With VW Mobile App Pro"
+msgstr ""
+
+#: inc/getstarted/getstart.php:57
+msgid "Rate the Theme"
+msgstr ""
+
+#: inc/getstarted/getstart.php:145
+msgid "Welcome to VW Mobile App Pro"
+msgstr ""
+
+#: inc/getstarted/getstart.php:146
+msgid "All our WordPress themes are modern, minimalist, 100% responsive, seo-friendly,feature-rich, and multipurpose that best suit designers, bloggers and other professionals who are working in the creative fields."
+msgstr ""
+
+#: inc/getstarted/getstart.php:150
+msgid "Getting Started"
+msgstr ""
+
+#: inc/getstarted/getstart.php:151 #: inc/class-tgm-plugin-activation.php:2481
+msgid "Plugins"
+msgstr ""
+
+#: inc/getstarted/getstart.php:152
+msgid "Demo Content Importer"
+msgstr ""
+
+#: inc/getstarted/getstart.php:159
+msgid "VW Mobile App Pro Information"
+msgstr ""
+
+#: inc/getstarted/getstart.php:161
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/getstarted/getstart.php:162
+msgid "If you need any assistance regarding setting up and configuring the Theme, our documentation is there."
+msgstr ""
+
+#: inc/getstarted/getstart.php:164
+msgid "Documentation"
+msgstr ""
+
+#: inc/getstarted/getstart.php:167
+msgid "Theme Customizer"
+msgstr ""
+
+#: inc/getstarted/getstart.php:168
+msgid "To begin customizing your website, start by clicking "Customize"."
+msgstr ""
+
+#: inc/getstarted/getstart.php:170
+msgid "Customizing"
+msgstr ""
+
+#: inc/getstarted/getstart.php:173
+msgid "Having Trouble, Need Support?"
+msgstr ""
+
+#: inc/getstarted/getstart.php:174
+msgid "Our dedicated team is well prepared to help you out in case of queries and doubts regarding our theme."
+msgstr ""
+
+#: inc/getstarted/getstart.php:176
+msgid "Support Forum"
+msgstr ""
+
+#: inc/getstarted/getstart.php:179
+msgid "Reviews & Testimonials"
+msgstr ""
+
+#: inc/getstarted/getstart.php:180
+msgid "All the features and aspects of this WordPress Theme are phenomenal. I\'d recommend this theme to all."
+msgstr ""
+
+#: inc/getstarted/getstart.php:182
+msgid "Reviews"
+msgstr ""
+
+#: inc/getstarted/getstart.php:186
+msgid "How to set up Home Page Template"
+msgstr ""
+
+#: inc/getstarted/getstart.php:188
+msgid "Follow these instructions to setup Home page."
+msgstr ""
+
+#: inc/getstarted/getstart.php:190
+msgid "Create a Page to set template: Go to"
+msgstr ""
+
+#: inc/getstarted/getstart.php:191
+msgid "Dashboard, Pages, Add New Page"
+msgstr ""
+
+#: inc/getstarted/getstart.php:192
+msgid "Label it "home" or anything as you wish. Then select template "home-page" from template dropdown."
+msgstr ""
+
+#: inc/getstarted/getstart.php:194
+msgid "Set the front page:"
+msgid "Go to"
+msgstr ""
+
+#: inc/getstarted/getstart.php:195
+msgid "Settings; Reading ; Set the front page display static page to home page "
+msgstr ""
+
+#: inc/getstarted/getstart.php:197
+msgid "Once you are done with this, you can see all the demo content on front page."
+msgstr ""
+
+#: inc/getstarted/getstart.php:202 #: inc/class-tgm-plugin-activation.php:334
+msgid " Install Required Plugins"
+msgstr ""
+
+#: inc/getstarted/getstart.php:205
+msgid "Title Banner Image Plugin"
+msgid "To fetch Banner on each page and post"
+msgstr ""
+
+#: inc/getstarted/getstart.php:206
+msgid "VW Mobile App Pro Posttype Plugin"
+msgid "Used for Adding Team and Testimonial"
+msgstr ""
+
+#: inc/getstarted/getstart.php:213
+msgid "Set up VW Mobile App pro Posttype Plugin"
+msgstr ""
+
+#: inc/getstarted/getstart.php:214
+msgid "Plugins are ways to extend and add to the functionality that already exists in WordPress"
+msgstr ""
+
+#: inc/getstarted/getstart.php:216
+msgid "First, you need to download the plugin from the source (which will be a zip file vw-mobile-app-pro-plugin-posttype)"
+msgstr ""
+
+#: inc/getstarted/getstart.php:217
+msgid " Next, you need to go to WordPress admin area and visit Plugins; Add New."
+msgstr ""
+
+#: inc/getstarted/getstart.php:219
+msgid "After that, click on the"
+msgid "Upload Plugin button"
+msgid "on top of the page"
+msgstr ""
+
+#: inc/getstarted/getstart.php:220
+msgid "This will bring you to the plugin upload page"
+msgstr ""
+
+#: inc/getstarted/getstart.php:221
+msgid "Here, you need to click on the choose file button and select the plugin file you downloaded earlier to your computer"
+msgstr ""
+
+#: inc/getstarted/getstart.php:223
+msgid "After you have selected the file, you need to click on the install now button"
+msgstr ""
+
+#: inc/getstarted/getstart.php:224
+msgid "WordPress will now upload the plugin file from your computer and install it for you. You will see a success message like this after installation is finished"
+msgstr ""
+
+#: inc/getstarted/getstart.php:225
+msgid "Once installed, you need to click on the Activate Plugin link to start using the plugin"
+msgstr ""
+
+#: inc/getstarted/getstart.php:226
+msgid "As soon as you activate plugin, you will Team and Testimonial in your Admin Navigation Pannel"
+msgstr ""
+
+#: inc/getstarted/getstart.php:231
+msgid "Click the below run importer button to import demo content"
+msgstr ""
+
+#: inc/widget/contact-widget.php:13
+msgid "Contct Us"
+msgstr ""
+
+#: inc/widget/contact-widget.php:15
+msgid "Widget for Contact Us section"
+msgstr ""
+
+#: inc/widget/contact-widget.php:197 #: inc/widget/socail-widget.php:103 #: inc/customizer-part-home.php:849 
+#: inc/customizer-part-home.php:906 #: inc/customizer-part-home.php:1973
+msgid "Title"
+msgstr ""
+
+#: inc/widget/contact-widget.php:202
+msgid "Content"
+msgstr "
+
+#: inc/widget/contact-widget.php:207
+msgid "Location Title"
+msgstr "
+
+#: inc/widget/contact-widget.php:226 #: inc/customizer-part-footer.php:193
+msgid "Email Title"
+msgstr "
+
+#: inc/widget/contact-widget.php:212
+msgid "Location"
+msgstr ""
+
+#: inc/widget/contact-widget.php:217 #: inc/customizer-part-footer.php:234
+msgid "Phone Title"
+msgstr ""
+
+#: inc/widget/contact-widget.php:221 #: inc/customizer-part-footer.php:244
+msgid "Phone"
+msgstr ""
+
+#: inc/widget/contact-widget.php:235
+msgid "Timings"
+msgstr ""
+
+#: inc/widget/contact-widget.php:239
+msgid "Time"
+msgstr ""
+
+#: inc/widget/socail-widget.php:9 
+msgid "Social Icon"
+msgstr ""
+
+#: inc/widget/socail-widget.php:11
+msgid "Widget for Social icons section"
+msgstr ""
+
+#: inc/widget/socail-widget.php:107
+msgid "Facebook"
+msgstr ""
+
+#: inc/widget/socail-widget.php:111
+msgid "Twitter"
+msgstr ""
+
+#: inc/widget/socail-widget.php:115
+msgid "Google+"
+msgstr ""
+
+#: inc/widget/socail-widget.php:119
+msgid "Linkedin"
+msgstr ""
+
+#: inc/widget/socail-widget.php:123
+msgid "Instagram"
+msgstr ""
+
+#: inc/widget/socail-widget.php:127
+msgid "Pinterest"
+msgstr ""
+
+#: inc/widget/socail-widget.php:131
+msgid "Tumblr"
+msgstr ""
+
+#: inc/widget/socail-widget.php:135
+msgid "Youtube"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:337 #: inc/class-tgm-plugin-activation.php:3613
+msgid "Installing Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:339
+msgid "Updating Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:343
+msgid "This theme requires the following plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:344
+msgid "This theme requires the following plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:349
+msgid "This theme recommends the following plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:350
+msgid "This theme recommends the following plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:355
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:356
+msgid "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:361
+msgid "There is an update available for"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:362
+msgid "There are updates available for the following plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:367
+msgid "The following required plugin is currently inactive"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:368
+msgid "The following required plugins are currently inactive"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:373
+msgid "The following recommended plugin is currently inactive"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:374
+msgid "The following recommended plugins are currently inactive"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:379
+msgid "Begin installing plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:383 #: inc/class-tgm-plugin-activation.php:3591
+msgid "Begin updating plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:384
+msgid "Begin updating plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:389
+msgid "Begin activating plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:393 #: inc/class-tgm-plugin-activation.php:920
+#: inc/class-tgm-plugin-activation.php:2626 #: inc/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:394 #: inc/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:395 #: inc/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:397
+msgid "No action taken. Plugin was already active."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:399
+msgid "Plugin not activated. A higher version of is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:401
+msgid "All plugins installed and activated successfully"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:403
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1027
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1027 #: inc/class-tgm-plugin-activation.php:1030
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1030
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1214 #: inc/class-tgm-plugin-activation.php:3041
+msgid "and"
+msgid " 'and','plugin A *and* plugin B' "
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2075
+msgid "TGMPA"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2435
+msgid "Install/Update Status"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2481
+msgid "All, All plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2485
+msgid "To Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2489
+msgid "Update Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2493
+msgid "To Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2575
+msgid "unknown', 'as in: "version nr unknown" "
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2696 #: inc/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2701 #: inc/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2707 #: inc/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3045
+msgid "The following plugins were activated successfully:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3594
+msgid "An error occurred while installing"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3596
+msgid "The installation of failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3600
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3602
+msgid "installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3602 #: inc/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3602 #: inc/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3605
+msgid "Installing and Activating Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3608
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3610
+msgid "installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/customizer-custom-variable.php:4
+msgid "Typography / General settings"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:5
+msgid "Typography settings"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:17
+msgid "Choose Boxed or Full Width Layout"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:20
+msgid "Full Width"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:21
+msgid "Boxed"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:31
+msgid "Add Boxed layout Width Here"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:32
+msgid "Boxed width is always set more than 1140px."
+msgstr ""
+
+#: inc/customizer-custom-variable.php:48
+msgid "Body Font family"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:58
+msgid "font size in px"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:69
+msgid "Body color"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:81
+msgid "H1"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:91
+msgid "H1 font size in px"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:102
+msgid "H1 color"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:114
+msgid "H2"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:124
+msgid "H2 font size in px"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:135
+msgid "H2 color"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:148
+msgid "H3"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:158
+msgid "H3 font size in px"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:169
+msgid "H3 color"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:181
+msgid "H4"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:191
+msgid "H4 font size in px"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:202
+msgid "H4 color"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:214
+msgid "H5"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:224
+msgid "H5 font size in px"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:235
+msgid "H5 color"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:247
+msgid "H6"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:257
+msgid "H6 font size in px"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:268
+msgid "H6 color"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:281
+msgid "Paragraph"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:291
+msgid "Paragraph font size in px"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:302
+msgid "Para color"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:313
+msgid "Highlight First Color  (It will change it globally)"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:323
+msgid "Highlight Second Color (It will change it globally)"
+msgstr ""
+
+#: inc/customizer-custom-variable.php:333
+msgid "Highlight Third Color (It will change it globally)"
+msgstr ""
+
+#: inc/customizer-part-footer.php:5
+msgid "Footer Widgets"
+msgstr ""
+
+#: inc/customizer-part-footer.php:6
+msgid "Edit footer Widgets sections"
+msgstr ""
+
+#: inc/customizer-part-footer.php:20 #: inc/customizer-part-home.php:21 #: inc/customizer-part-home.php:281
+#: inc/customizer-part-home.php:548 #: inc/customizer-part-home.php:770 #: inc/customizer-part-home.php:1063
+#: inc/customizer-part-home.php:1208 #: inc/customizer-part-home.php:1574 #: inc/customizer-part-home.php:1740
+#: inc/customizer-part-home.php:1905 #: inc/customizer-part-home.php:2142 #: inc/customizer-part-home.php:2308
+#: inc/customizer-part-home.php:2590
+msgid "Enable"
+msgstr ""
+
+#: inc/customizer-part-footer.php:21 #: inc/customizer-part-home.php:22 #: inc/customizer-part-home.php:282
+#: inc/customizer-part-home.php:549 #: inc/customizer-part-home.php:771 #: inc/customizer-part-home.php:1064
+#: inc/customizer-part-home.php:1209 #: inc/customizer-part-home.php:1575 #: inc/customizer-part-home.php:1741
+#: inc/customizer-part-home.php:1906 #: inc/customizer-part-home.php:2143 #: inc/customizer-part-home.php:2309
+#: inc/customizer-part-home.php:2591
+msgid "Disable"
+msgstr ""
+
+#: inc/customizer-part-footer.php:31 #: inc/customizer-part-footer.php:119 #: inc/customizer-part-home.php:32
+#: inc/customizer-part-home.php:292 #: inc/customizer-part-home.php:781 #: inc/customizer-part-home.php:1074
+#: inc/customizer-part-home.php:1271 #: inc/customizer-part-home.php:1583 #: inc/customizer-part-home.php:1749
+#: inc/customizer-part-home.php:1913 #: inc/customizer-part-home.php:2153 #: inc/customizer-part-home.php:2318
+#: inc/customizer-part-home.php:2600
+msgid "Background Color"
+msgstr ""
+ 
+#: inc/customizer-part-footer.php:44 #: inc/customizer-part-footer.php:132 #: inc/customizer-part-home.php:1231
+#: inc/customizer-part-home.php:1597 #: inc/customizer-part-home.php:1763 #: inc/customizer-part-home.php:1923
+#: inc/customizer-part-home.php:2163 #: inc/customizer-part-home.php:2333 #: inc/customizer-part-home.php:2613
+msgid "Background image"
+msgstr ""
+
+#: inc/customizer-part-footer.php:54
+msgid "Footer Heading Color"
+msgstr ""
+
+#: inc/customizer-part-footer.php:67
+msgid "Footer Heading Font Family"
+msgstr ""
+
+#: inc/customizer-part-footer.php:77 #: inc/customizer-part-footer.php:143
+msgid "Footer Content Color"
+msgstr ""
+
+#: inc/customizer-part-footer.php:90
+msgid "Footer Content Font Family"
+msgstr ""
+
+#: inc/customizer-part-footer.php:97
+msgid "Footer Text"
+msgstr ""
+
+#: inc/customizer-part-footer.php:98
+msgid "Add some text for footer like copyright etc"
+msgstr ""
+
+#: inc/customizer-part-footer.php:107
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/customizer-part-footer.php:156
+msgid "Content Font Family"
+msgstr ""
+
+#: inc/customizer-part-footer.php:163
+msgid "Contact"
+msgstr ""
+
+#: inc/customizer-part-footer.php:164
+msgid "Add contact page settings here"
+msgstr ""
+
+#: inc/customizer-part-footer.php:173
+msgid "Longitude"
+msgstr ""
+
+#: inc/customizer-part-footer.php:183
+msgid "Latitude"
+msgstr ""
+
+#: inc/customizer-part-footer.php:214 #: inc/customizer-part-footer.php:224
+msgid "Address"
+msgstr ""
+
+#: inc/customizer-part-footer.php:255
+msgid "Working Hours"
+msgstr ""
+
+#: inc/customizer-part-footer.php:265
+msgid "Add Working Hours"
+msgstr ""
+
+#: inc/customizer-part-footer.php:276
+msgid "Add Additional Information"
+msgstr ""
+
+#: inc/customizer-part-footer.php:287
+msgid "Add Form Title"
+msgstr ""
+
+#: inc/customizer-part-footer.php:298
+msgid "Add Form Sub Title"
+msgstr ""
+
+#: inc/customizer-part-footer.php:309 #: inc/customizer-part-home.php:2693
+msgid "Contact Heading Color"
+msgstr ""
+
+#: inc/customizer-part-footer.php:322 #: inc/customizer-part-home.php:2693
+msgid "Contact Heading Fonts"
+msgstr ""
+
+#: inc/customizer-part-footer.php:331
+msgid "Contact Content Color"
+msgstr ""
+
+#: inc/customizer-part-footer.php:344
+msgid "Contact Content Fonts"
+msgstr ""
+
+#: inc/customizer-part-footer.php:353 #: inc/customizer-part-home.php:1005 #: inc/customizer-part-home.php:2743
+msgid "Icon Color"
+msgstr ""
+
+#: inc/customizer-part-footer.php:360
+msgid "Shortcode Settings"
+msgstr ""
+
+#: inc/customizer-part-footer.php:361
+msgid "Use below shortcode here."
+msgstr ""
+
+#: inc/customizer-part-header.php:5
+msgid "Header"
+msgstr ""
+
+#: inc/customizer-part-header.php:6
+msgid "Header Settings"
+msgstr ""
+
+#: inc/customizer-part-header.php:16
+msgid "Header Main title Color and subtitle color"
+msgstr ""
+
+#: inc/customizer-part-header.php:28
+msgid "Header Main title Font family"
+msgstr ""
+
+#: inc/customizer-part-header.php:37
+msgid "Header Background Color for inner pages / On scroll"
+msgstr ""
+
+#: inc/customizer-part-header.php:47
+msgid "Menu Item Color"
+msgstr ""
+
+#: inc/customizer-part-header.php:60
+msgid "Menu Item Fonts"
+msgstr ""
+
+#: inc/customizer-part-header.php:69
+msgid "Menu Item Hover Color"
+msgstr ""
+
+#: inc/customizer-part-header.php:80
+msgid "Menu DropDown Background Color"
+msgstr ""
+
+#: inc/customizer-part-header.php:90
+msgid "Menu DropDown Item Color"
+msgstr ""
+
+#: inc/customizer-part-header.php:100
+msgid "Menu DropDown Item Hover Color"
+msgstr ""
+
+#: inc/customizer-part-header.php:111
+msgid "Responsive Menu Background Color"
+msgstr ""
+
+#: inc/customizer-part-header.php:120
+msgid "Responsive Menu item Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:5
+msgid "Main Banner"
+msgstr ""
+
+#: inc/customizer-part-home.php:6
+msgid "Add Main Banner content here"
+msgstr ""
+
+#: inc/customizer-part-home.php:18 #: inc/customizer-part-home.php:278 #: inc/customizer-part-home.php:545
+#: inc/customizer-part-home.php:767 #: inc/customizer-part-home.php:1060 #: inc/customizer-part-home.php:1205
+#: inc/customizer-part-home.php:1571 #: inc/customizer-part-home.php:1737 #: inc/customizer-part-home.php:1902
+#: inc/customizer-part-home.php:2139 #: inc/customizer-part-home.php:2305 #: inc/customizer-part-home.php:2587
+msgid "Do you want this section"
+msgstr ""
+
+#: inc/customizer-part-home.php:35 #: inc/customizer-part-home.php:295 #: inc/customizer-part-home.php:562 
+#: inc/customizer-part-home.php:587 #: inc/customizer-part-home.php:784 #: inc/customizer-part-home.php:1077 
+#: inc/customizer-part-home.php:1219 #: inc/customizer-part-home.php:1584 #: inc/customizer-part-home.php:1750 
+#: inc/customizer-part-home.php:1914 #: inc/customizer-part-home.php:2154 #: inc/customizer-part-home.php:2319 
+msgid "Either add background color or background image, if you add both background color will be top most priority"
+msgstr ""
+
+#: inc/customizer-part-home.php:47 #: inc/customizer-part-home.php:307 #: inc/customizer-part-home.php:796
+#: inc/customizer-part-home.php:1089
+msgid "Background Image(Image Resolution)"
+msgstr ""
+
+#: inc/customizer-part-home.php:67 #: inc/customizer-part-home.php:327  #: inc/customizer-part-home.php:619
+#: inc/customizer-part-home.php:816 #: inc/customizer-part-home.php:1109 
+msgid "Sub text"
+msgstr ""
+
+#: inc/customizer-part-home.php:77
+msgid "Button 1 Text"
+msgstr ""
+
+#: inc/customizer-part-home.php:86
+msgid "Button 1 Link"
+msgstr ""
+
+#: inc/customizer-part-home.php:96
+msgid "Button 2 Text"
+msgstr ""
+
+#: inc/customizer-part-home.php:105
+msgid "Button 2 Link"
+msgstr ""
+
+#: inc/customizer-part-home.php:119
+msgid "Right Side Image"
+msgstr ""
+
+#: inc/customizer-part-home.php:130 #: inc/customizer-part-home.php:410 #: inc/customizer-part-home.php:649
+#: inc/customizer-part-home.php:930 #: inc/customizer-part-home.php:1147 #: inc/customizer-part-home.php:1360
+#: inc/customizer-part-home.php:1628 #: inc/customizer-part-home.php:1795 #: inc/customizer-part-home.php:2020
+#: inc/customizer-part-home.php:2209 #: inc/customizer-part-home.php:2420 #: inc/customizer-part-home.php:2667
+msgid "Section Heading Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:144 #: inc/customizer-part-home.php:424 #: inc/customizer-part-home.php:663
+#: inc/customizer-part-home.php:944 #: inc/customizer-part-home.php:1161 #: inc/customizer-part-home.php:1374
+#: inc/customizer-part-home.php:1642 #: inc/customizer-part-home.php:1809 #: inc/customizer-part-home.php:2034
+#: inc/customizer-part-home.php:2223 #: inc/customizer-part-home.php:2434 #: inc/customizer-part-home.php:2681
+msgid "Section Heading Fonts"
+msgstr ""
+
+#: inc/customizer-part-home.php:155 #: inc/customizer-part-home.php:435 #: inc/customizer-part-home.php:674
+#: inc/customizer-part-home.php:980 #: inc/customizer-part-home.php:1172 #: inc/customizer-part-home.php:1385
+#: inc/customizer-part-home.php:1653 #: inc/customizer-part-home.php:1820 #: inc/customizer-part-home.php:2045
+#: inc/customizer-part-home.php:2234 #: inc/customizer-part-home.php:2445
+msgid "Section Text Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:169 #: inc/customizer-part-home.php:449 #: inc/customizer-part-home.php:688
+#: inc/customizer-part-home.php:994 #: inc/customizer-part-home.php:1186 #: inc/customizer-part-home.php:1399
+#: inc/customizer-part-home.php:1667 #: inc/customizer-part-home.php:1834 #: inc/customizer-part-home.php:2059
+#: inc/customizer-part-home.php:2248 #: inc/customizer-part-home.php:2459
+msgid "Section Text Fonts"
+msgstr ""
+
+#: inc/customizer-part-home.php:183 #: inc/customizer-part-home.php:713 #: inc/customizer-part-home.php:1519
+#: inc/customizer-part-home.php:2273 #: inc/customizer-part-home.php:2534
+msgid "Section Button Fonts"
+msgstr ""
+
+#: inc/customizer-part-home.php:194
+msgid "Button Border Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:205
+msgid "Button 1 Text Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:215
+msgid "Button 2 Text Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:226
+msgid "Button 1 Background Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:236
+msgid "Button 2 Background Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:247
+msgid "Button 1 Hover Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:257
+msgid "Button 2 Hover Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:57 #: inc/customizer-part-home.php:317 #: inc/customizer-part-home.php:1099 
+#: inc/customizer-part-home.php:1241 #: inc/customizer-part-home.php:1606 #: inc/customizer-part-home.php:1773 
+#: inc/customizer-part-home.php:1932 #: inc/customizer-part-home.php:2173 #: inc/customizer-part-home.php:2342
+msgid "Section Title"
+msgstr ""
+
+#: inc/customizer-part-home.php:265
+msgid "About Us"
+msgstr ""
+
+#: inc/customizer-part-home.php:337
+msgid "Number of record to show"
+msgstr ""
+
+#: inc/customizer-part-home.php:350
+msgid "Add Icon Class"
+msgstr ""
+
+#: inc/customizer-part-home.php:360
+msgid "Icon Image(Image Resolution 85*85)If you want to add image first remove the icon"
+msgstr ""
+
+#: inc/customizer-part-home.php:370
+msgid "Icon Title"
+msgstr ""
+
+#: inc/customizer-part-home.php:380
+msgid "Icon Content"
+msgstr ""
+
+#: inc/customizer-part-home.php:389 #: inc/customizer-part-home.php:2384
+msgid "read More Text"
+msgstr ""
+
+#: inc/customizer-part-home.php:398
+msgid "read More Link"
+msgstr ""
+
+#: inc/customizer-part-home.php:460
+msgid "Icon Title Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:474 #: inc/customizer-part-home.php:499
+msgid "Icon Title Fonts"
+msgstr ""
+
+#: inc/customizer-part-home.php:485
+msgid "Icon Content Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:510
+msgid "Read More Text Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:524
+msgid "Read More Text Fonts"
+msgstr ""
+
+#: inc/customizer-part-home.php:532
+msgid "Promo Banner"
+msgstr ""
+
+#: inc/customizer-part-home.php:533
+msgid "Add Promo Banner content here."
+msgstr ""
+
+#: inc/customizer-part-home.php:559
+msgid "Section Background Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:574
+msgid "Section Background Image"
+msgstr ""
+
+#: inc/customizer-part-home.php:584
+msgid "Inner Background Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:599
+msgid "Inner Background Image"
+msgstr ""
+
+#: inc/customizer-part-home.php:609
+msgid "Banner Title"
+msgstr ""
+
+#: inc/customizer-part-home.php:629 #: inc/customizer-part-home.php:1337
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer-part-home.php:638
+msgid "Button Link"
+msgstr ""
+
+#: inc/customizer-part-home.php:699 #: inc/customizer-part-home.php:1505 #: inc/customizer-part-home.php:2259
+#: inc/customizer-part-home.php:2520
+msgid "Button Text Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:724 #: inc/customizer-part-home.php:1530 #: inc/customizer-part-home.php:2284
+#: inc/customizer-part-home.php:2545
+msgid "Button Background Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:735 #: inc/customizer-part-home.php:1541 #: inc/customizer-part-home.php:2556
+msgid "Button Hover Background Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:746 #: inc/customizer-part-home.php:1552 #: inc/customizer-part-home.php:2567
+msgid "Button Hover Text Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:754
+msgid "Amazing Features"
+msgstr ""
+
+#: inc/customizer-part-home.php:755
+msgid "Add Amazing Features content here."
+msgstr ""
+
+#: inc/customizer-part-home.php:806
+msgid "Section Heading"
+msgstr ""
+
+#: inc/customizer-part-home.php:826
+msgid "Number of Details to show for left box"
+msgstr ""
+
+#: inc/customizer-part-home.php:838 #: inc/customizer-part-home.php:896
+msgid "Icon"
+msgstr ""
+
+#: inc/customizer-part-home.php:860 #: inc/customizer-part-home.php:917
+msgid "Description"
+msgstr ""
+
+#: inc/customizer-part-home.php:874
+msgid "Center Image"
+msgstr ""
+
+#: inc/customizer-part-home.php:885
+msgid "Number of Details to show for right box"
+msgstr ""
+
+#: inc/customizer-part-home.php:955
+msgid "Subtitle Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:969
+msgid "Subtitle Fonts"
+msgstr ""
+
+#: inc/customizer-part-home.php:1016
+msgid "Icon Background Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:1027
+msgid "Icon Hover Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:1038
+msgid "Icon Hover Background Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:1047
+msgid "Awesome Screenshots"
+msgstr ""
+
+#: inc/customizer-part-home.php:1048
+msgid "Add Awesome Screenshots content here."
+msgstr ""
+
+#: inc/customizer-part-home.php:1119
+msgid "Number of screenshots to show"
+msgstr ""
+
+#: inc/customizer-part-home.php:1134
+msgid "Screenshot"
+msgstr ""
+
+#: inc/customizer-part-home.php:1193
+msgid "Plans and Pricing"
+msgstr ""
+
+#: inc/customizer-part-home.php:1194
+msgid "Add Plans and Pricing content here."
+msgstr ""
+
+#: inc/customizer-part-home.php:1252
+msgid "Section Sub Title"
+msgstr ""
+
+#: inc/customizer-part-home.php:1264
+msgid "Number of box to show"
+msgstr ""
+
+#: inc/customizer-part-home.php:1275
+msgid "Box Heading"
+msgstr ""
+
+#: inc/customizer-part-home.php:1285
+msgid "Sub Heading"
+msgstr ""
+
+#: inc/customizer-part-home.php:1295
+msgid "Box Price"
+msgstr ""
+
+#: inc/customizer-part-home.php:1305
+msgid "Per/month or year"
+msgstr ""
+
+#: inc/customizer-part-home.php:1315
+msgid "Number of Plans to show"
+msgstr ""
+
+#: inc/customizer-part-home.php:1326
+msgid "Plans Text"
+msgstr ""
+
+#: inc/customizer-part-home.php:1347
+msgid "Link"
+msgstr ""
+
+#: inc/customizer-part-home.php:1410 #: inc/customizer-part-home.php:2644
+msgid "Background First Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:1411
+msgid "Select two color for Box background gradient effect "
+msgstr ""
+
+#: inc/customizer-part-home.php:1422 #: inc/customizer-part-home.php:2656
+msgid "Background Second Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:1433
+msgid "Plan Title Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:1447
+msgid "Plan Title Fonts"
+msgstr ""
+
+#: inc/customizer-part-home.php:1458
+msgid "Plan Details Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:1472
+msgid "Plan Details Fonts"
+msgstr ""
+
+#: inc/customizer-part-home.php:1483
+msgid "Plan Box Background Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:1494
+msgid "Border Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:1559
+msgid "Team Section"
+msgstr ""
+
+#: inc/customizer-part-home.php:1560
+msgid "This section is only for Team title and styling. Click here to add Team"
+msgstr ""
+
+#: inc/customizer-part-home.php:1616 #: inc/customizer-part-home.php:1783 #: inc/customizer-part-home.php:1942
+#: inc/customizer-part-home.php:2184 #: inc/customizer-part-home.php:2353
+msgid "Section Description"
+msgstr ""
+
+#: inc/customizer-part-home.php:1678
+msgid "Team Name Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:1692
+msgid "Team Name Fonts"
+msgstr ""
+
+#: inc/customizer-part-home.php:1703
+msgid "Team Designation Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:1724
+msgid "Testimonial"
+msgstr ""
+
+#: inc/customizer-part-home.php:1725
+msgid "This section is only for Testimonial title and styling.Click here to add testimonials."
+msgstr ""
+
+#: inc/customizer-part-home.php:1845
+msgid "Testimonial Details Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:1859
+msgid "Testimonial Details Fonts"
+msgstr ""
+
+#: inc/customizer-part-home.php:1870
+msgid "Testimonial Content Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:1884
+msgid "Testimonial Content Fonts"
+msgstr ""
+
+#: inc/customizer-part-home.php:1891
+msgid "Records"
+msgstr ""
+
+#: inc/customizer-part-home.php:1892
+msgid "Add Records details here"
+msgstr ""
+
+#: inc/customizer-part-home.php:1959
+msgid "Number of boxes to show"
+msgstr ""
+
+#: inc/customizer-part-home.php:1963
+msgid "Add Font Awesome Icons"
+msgstr ""
+
+#: inc/customizer-part-home.php:1984
+msgid "Sub Title"
+msgstr ""
+
+#: inc/customizer-part-home.php:1998
+msgid "Video Background Image"
+msgstr ""
+
+#: inc/customizer-part-home.php:2007
+msgid "Add Video URl"
+msgstr ""
+
+#: inc/customizer-part-home.php:2070
+msgid "Record Icon Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:2081
+msgid "Record Count Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:2095
+msgid "Record Count Fonts"
+msgstr ""
+
+#: inc/customizer-part-home.php:2106
+msgid "Record Title Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:2120
+msgid "Record Title Fonts"
+msgstr ""
+
+#: inc/customizer-part-home.php:2127
+msgid "Newsletter"
+msgstr ""
+
+#: inc/customizer-part-home.php:2196
+msgid "Shortcode"
+msgstr ""
+
+#: inc/customizer-part-home.php:2293
+msgid "Latest News"
+msgstr ""
+
+#: inc/customizer-part-home.php:2375
+msgid "Latest post (select category to show selected post)"
+msgstr ""
+
+#: inc/customizer-part-home.php:2398
+msgid "show/hide Date"
+msgstr ""
+
+#: inc/customizer-part-home.php:2410
+msgid "show/hide Meta Content"
+msgstr ""
+
+#: inc/customizer-part-home.php:2470
+msgid "Post Title Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:2484
+msgid "Post Title Fonts"
+msgstr ""
+
+#: inc/customizer-part-home.php:2495
+msgid "Post Content Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:2509
+msgid "Post Content Fonts"
+msgstr ""
+
+#: inc/customizer-part-home.php:2574
+msgid "Home Contact form"
+msgstr ""
+
+#: inc/customizer-part-home.php:2575
+msgid "You will get same information on home contact us and contact us page."
+msgstr ""
+
+#: inc/customizer-part-home.php:2622
+msgid "Footer Form Title"
+msgstr ""
+
+#: inc/customizer-part-home.php:2632
+msgid "Footer Form Shortcode"
+msgstr ""
+
+#: inc/customizer-part-home.php:2645
+msgid "Select two color for form background gradient effect ."
+msgstr ""
+
+#: inc/customizer-part-home.php:2718
+msgid "Contact Detail Color"
+msgstr ""
+
+#: inc/customizer-part-home.php:2732
+msgid "Contact Details Fonts"
+msgstr ""
+
+#: inc/customizer-part-home.php:2750
+msgid "Blog Page"
+msgstr ""
+
+#: inc/customizer-part-home.php:2751
+msgid "select the category you wish to be get displayed on blog page ."
+msgstr ""
+
+#: inc/customizer-part-home.php:2771
+msgid "Blog page (select category to show selected post)"
+msgstr ""
+
+#: inc/customizer-part-home.php:2783
+msgid "Author Name"
+msgstr ""
+
+#: inc/customizer-part-home.php:2795
+msgid "Comment"
+msgstr ""
+
+#: inc/customizer-part-home.php:2807
+msgid "Post Date"
+msgstr ""
+
+#: inc/customizer-part-home.php:1895
+msgid "Social Sharing"
+msgstr ""
+
+#: inc/customizer-part-social-icons.php:4
+msgid "social Icons"
+msgstr ""
+
+#: inc/customizer-part-social-icons.php:5
+msgid "Add social Icons details Here"
+msgstr ""
+
+#: inc/customizer-part-social-icons.php:15
+msgid "Add twitter link"
+msgstr ""
+
+#: inc/customizer-part-social-icons.php:26
+msgid "Add pinterest link"
+msgstr ""
+
+#: inc/customizer-part-social-icons.php:37
+msgid "Add facebook link"
+msgstr ""
+
+#: inc/customizer-part-social-icons.php:48
+msgid "Add Youtube link"
+msgstr ""
+
+#: inc/customizer-part-social-icons.php:59
+msgid "Add Instagram link"
+msgstr ""
+
+#: inc/customizer-part-social-icons.php:70
+msgid "Add Linkedin link"
+msgstr ""
+
+#: inc/customizer-part-social-icons.php:81
+msgid "Add Tumblr link"
+msgstr ""
+
+#: inc/customizer-part-social-icons.php:92
+msgid "Add GooglePlus link"
+msgstr ""
+
+#: inc/customizer-part-social-icons.php:103
+msgid "Add Flickr link"
+msgstr ""
+
+#: inc/customizer-part-social-icons.php:114
+msgid "Add VK link"
+msgstr ""
+
+#: inc/customizer.php:36
+msgid "Show Title"
+msgstr ""
+
+#: inc/customizer.php:45
+msgid "Show Tagline"
+msgstr ""
+
+#: inc/customizer.php:54
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/customizer.php:58
+msgid "No Fonts"
+msgstr ""
+
+#: inc/customizer.php:59
+msgid "Abril Fatface"
+msgstr ""
+
+#: inc/customizer.php:60
+msgid "Acme"
+msgstr ""
+
+#: inc/customizer.php:61
+msgid "Anton"
+msgstr ""
+
+#: inc/customizer.php:62
+msgid "Architects Daughter"
+msgstr ""
+
+#: inc/customizer.php:63
+msgid "Arimo"
+msgstr ""
+
+#: inc/customizer.php:64
+msgid "Arsenal"
+msgstr ""
+
+#: inc/customizer.php:65
+msgid "Arvo"
+msgstr ""
+
+#: inc/customizer.php:66
+msgid "Alegreya"
+msgstr ""
+
+#: inc/customizer.php:67
+msgid "Alfa Slab One"
+msgstr ""
+
+#: inc/customizer.php:68
+msgid "Averia Serif Libre"
+msgstr ""
+
+#: inc/customizer.php:69
+msgid "Bangers"
+msgstr ""
+
+#: inc/customizer.php:70
+msgid "Boogaloo"
+msgstr ""
+
+#: inc/customizer.php:71
+msgid "Bad Script"
+msgstr ""
+
+#: inc/customizer.php:72
+msgid "Bitter"
+msgstr ""
+
+#: inc/customizer.php:73
+msgid "Bree Serif"
+msgstr ""
+
+#: inc/customizer.php:74
+msgid "BenchNine"
+msgstr ""
+
+#: inc/customizer.php:75
+msgid "Cabin"
+msgstr ""
+
+#: inc/customizer.php:76
+msgid "Cardo"
+msgstr ""
+
+#: inc/customizer.php:77
+msgid "Courgette"
+msgstr ""
+
+#: inc/customizer.php:78
+msgid "Cherry Swash"
+msgstr ""
+
+#: inc/customizer.php:79
+msgid "Cormorant Garamond"
+msgstr ""
+
+#: inc/customizer.php:80
+msgid "Crimson Text"
+msgstr ""
+
+#: inc/customizer.php:81
+msgid "Cuprum"
+msgstr ""
+
+#: inc/customizer.php:82
+msgid "Cookie"
+msgstr ""
+
+#: inc/customizer.php:83
+msgid "Chewy"
+msgstr ""
+
+#: inc/customizer.php:84
+msgid "Days One"
+msgstr ""
+
+#: inc/customizer.php:85
+msgid "Dosis"
+msgstr ""
+
+#: inc/customizer.php:86
+msgid "Economica"
+msgstr ""
+
+#: inc/customizer.php:87
+msgid "Fredoka One"
+msgstr ""
+
+#: inc/customizer.php:88
+msgid "Fjalla One"
+msgstr ""
+
+#: inc/customizer.php:89
+msgid "Francois One"
+msgstr ""
+
+#: inc/customizer.php:90
+msgid "Frank Ruhl Libre"
+msgstr ""
+
+#: inc/customizer.php:91
+msgid "Gloria Hallelujah"
+msgstr ""
+
+#: inc/customizer.php:92
+msgid "Great Vibes"
+msgstr ""
+
+#: inc/customizer.php:93
+msgid "Handlee"
+msgstr ""
+
+#: inc/customizer.php:94
+msgid "Hammersmith One"
+msgstr ""
+
+#: inc/customizer.php:95
+msgid "Inconsolata"
+msgstr ""
+
+#: inc/customizer.php:96
+msgid "Indie Flower"
+msgstr ""
+
+#: inc/customizer.php:97
+msgid "IM Fell English SC"
+msgstr ""
+
+#: inc/customizer.php:98
+msgid "Julius Sans One"
+msgstr ""
+
+#: inc/customizer.php:99
+msgid "Josefin Slab"
+msgstr ""
+
+#: inc/customizer.php:100
+msgid "Josefin Sans"
+msgstr ""
+
+#: inc/customizer.php:101
+msgid "Kanit"
+msgstr ""
+
+#: inc/customizer.php:102
+msgid "Lobster"
+msgstr ""
+
+#: inc/customizer.php:103
+msgid "Lato"
+msgstr ""
+
+#: inc/customizer.php:104
+msgid "Lora"
+msgstr ""
+
+#: inc/customizer.php:105
+msgid "Libre Baskerville"
+msgstr ""
+
+#: inc/customizer.php:106
+msgid "Lobster Two"
+msgstr ""
+
+#: inc/customizer.php:107
+msgid "Merriweather"
+msgstr ""
+
+#: inc/customizer.php:108
+msgid "Monda"
+msgstr ""
+
+#: inc/customizer.php:109
+msgid "Montserrat"
+msgstr ""
+
+#: inc/customizer.php:110
+msgid "Muli"
+msgstr ""
+
+#: inc/customizer.php:111
+msgid "Marck Script"
+msgstr ""
+
+#: inc/customizer.php:112
+msgid "Noto Serif"
+msgstr ""
+
+#: inc/customizer.php:113
+msgid "Open Sans"
+msgstr ""
+
+#: inc/customizer.php:114
+msgid "Overpass"
+msgstr ""
+
+#: inc/customizer.php:115
+msgid "Overpass Mono"
+msgstr ""
+
+#: inc/customizer.php:116
+msgid "Oxygen"
+msgstr ""
+
+#: inc/customizer.php:117
+msgid "Orbitron"
+msgstr ""
+
+#: inc/customizer.php:118
+msgid "Patua One"
+msgstr ""
+
+#: inc/customizer.php:119
+msgid "Pacifico"
+msgstr ""
+
+#: inc/customizer.php:120
+msgid "Padauk"
+msgstr ""
+
+#: inc/customizer.php:121
+msgid "Playball"
+msgstr ""
+
+#: inc/customizer.php:122
+msgid "Playfair Display"
+msgstr ""
+
+#: inc/customizer.php:123
+msgid "PT Sans"
+msgstr ""
+
+#: inc/customizer.php:124
+msgid "Philosopher"
+msgstr ""
+
+#: inc/customizer.php:125
+msgid "Permanent Marker"
+msgstr ""
+
+#: inc/customizer.php:126
+msgid "Poiret One"
+msgstr ""
+
+#: inc/customizer.php:127
+msgid "Quicksand"
+msgstr ""
+
+#: inc/customizer.php:128
+msgid "Quattrocento Sans"
+msgstr ""
+
+#: inc/customizer.php:129
+msgid "Raleway"
+msgstr ""
+
+#: inc/customizer.php:130
+msgid "Rubik"
+msgstr ""
+
+#: inc/customizer.php:131
+msgid "Rokkitt"
+msgstr ""
+
+#: inc/customizer.php:132
+msgid "Russo One"
+msgstr ""
+
+#: inc/customizer.php:133
+msgid "Righteous"
+msgstr ""
+
+#: inc/customizer.php:134
+msgid "Slabo"
+msgstr ""
+
+#: inc/customizer.php:135
+msgid "Source Sans Pro"
+msgstr ""
+
+#: inc/customizer.php:136
+msgid "Shadows Into Light Two"
+msgstr ""
+
+#: inc/customizer.php:137
+msgid "Shadows Into Light"
+msgstr ""
+
+#: inc/customizer.php:138
+msgid "Sacramento"
+msgstr ""
+
+#: inc/customizer.php:139
+msgid "Shrikhand"
+msgstr ""
+
+#: inc/customizer.php:140
+msgid "Tangerine"
+msgstr ""
+
+#: inc/customizer.php:141
+msgid "Ubuntu"
+msgstr ""
+
+#: inc/customizer.php:142
+msgid "VT323"
+msgstr ""
+
+#: inc/customizer.php:143
+msgid "Varela Round"
+msgstr ""
+
+#: inc/customizer.php:144
+msgid "Vampiro One"
+msgstr ""
+
+#: inc/customizer.php:145
+msgid "Vollkorn"
+msgstr ""
+
+#: inc/customizer.php:146
+msgid "Volkhov"
+msgstr ""
+
+#: inc/customizer.php:147
+msgid "Yanone Kaffeesatz"
+msgstr ""
+
+#: inc/customizer.php:231
+msgid "Review & Testimonial"
+msgstr ""
+
+#: inc/customizer.php:232
+msgid "Rate Us"
+msgstr ""
+
+#: inc/template-tags.php:88
+msgid "Fitness logo"
+msgstr ""
+
+#: inc/tgm.php:9
+msgid "VW Mobile App Pro Posttype"
+msgstr ""
+
+#: inc/tgm.php:16
+msgid "VW Title Banner Image"
+msgstr ""
+
+#: page-template/blog-fullwidth-extend.php:39 #: page-template/blog-with-left-sidebar.php:34
+#: page-template/blog-with-right-sidebar.php:31
+msgid "Not Found"
+msgstr ""
+
+#: page-template/contact.php:28 #: page-template/home/contact-us.php:39
+msgid "abc@gamil.com"
+msgstr ""
+
+#: template-parts/home/latest-posts.php:57 #: template-parts/post/post-content.php:22
+msgid "no comments"
+msgstr ""
+
+#: template-parts/home/latest-posts.php:57 #: template-parts/post/post-content.php:22
+msgid "comments"
+msgstr ""
+
+#: template-parts/home/our-team.php:66
+msgid "Create the team to make it appear here."
+msgstr ""
+
+#: template-parts/home/our-team.php:73
+msgid "Please Activate VW Mobile App Pro Posttype and create the team to make it appear here."
+msgstr ""
+
+#: template-parts/home/plans-pricing.php:84
+msgid "Select Plans"
+msgstr ""
+
+#: template-parts/home/testimonial.php:63
+msgid "Create the testimonials to make it appear here."
+msgstr ""
+
+#: template-parts/home/testimonial.php:71
+msgid "Please Activate VW Mobile App Pro Posttype and create the testimonials to make it appear here."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:29
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:55
+msgid "Your order"
+msgstr ""

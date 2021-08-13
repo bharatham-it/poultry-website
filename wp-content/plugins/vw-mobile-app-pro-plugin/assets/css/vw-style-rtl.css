@@ -1,0 +1,3036 @@
+
+/* Basic Style */
+*{
+  margin:0; 
+  padding:0; 
+  outline:none;
+}
+html body{
+  margin:0; 
+  padding:0; 
+  -ms-word-wrap:break-word; 
+  word-wrap:break-word; 
+  background-color:#fff; 
+  position:relative; 
+  font-size: 15px;
+  color:#2d313d; 
+  font-family: 'Kanit';
+  font-weight: 300;
+}
+label {
+  margin-bottom: 0 !important;
+}
+img{
+  margin:0; 
+  padding:0; 
+  border:none; 
+  max-width:100%; 
+  height:auto;
+}
+section img{
+  max-width:100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{ 
+  margin:0;
+  padding:10px 0;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  color: #2d313d;
+}
+p{
+  margin:0 0 15px; 
+  padding:0;
+  font-size:16px;
+  font-weight:300;
+  font-family: 'Roboto';
+}
+p, ul li a{
+  letter-spacing: 0px;
+}
+body a{
+  text-decoration:none; 
+  color:#fc6352;
+}
+a:hover{
+  text-decoration:none; 
+  color:#666;
+}
+a:focus,a:hover{
+  text-decoration:none !important;
+}
+ul,ol{ 
+  margin:0 15px 0 0; 
+  padding:0;
+}
+ul li, ol li{font-size: 16px;}
+:hover{-webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+blockquote {
+  font-size: 18px;
+  font-style: italic;
+  width: 450px;
+  margin: 0.25em 0;
+  padding: 0.25em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
+}
+ 
+blockquote:before {
+  display: block;
+  content: "\201C";
+  font-size: 80px;
+  position: absolute;
+  right: 0px;
+  top: -10px;
+  color: #7a7a7a;
+}
+
+blockquote:after {
+  display: block;
+  content: "\201D";
+  font-size: 80px;
+  position: absolute;
+  left: 0px;
+  bottom: -10px;
+  color: #7a7a7a;
+}
+ 
+blockquote cite {
+  color: #999999;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+}
+  
+blockquote cite:before {
+  content: "\2014 \2009";
+}
+small{
+  font-size:14px !important;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="phno"],input[type="password"],
+textarea{
+  border:1px solid #424648;
+  font-size:16px;
+  padding:10px 10px; 
+  margin:0 0 0px 0;
+  height:auto;
+  width: 100%;
+  background: transparent;
+}
+section{
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px 0;
+}
+select{
+  width: 100%;
+  padding: 6px;
+}
+input[type="submit"] {
+  background-color: #ffffff !important;
+  color: #fc6352 !important;
+  border: 2px solid #fc6352 !important;
+  letter-spacing: 1px;
+  padding: 15px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 28px;
+  display: inline-block;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+}
+input[type="submit"]:hover{
+  cursor: pointer;
+}
+textarea {
+    height: 100px;
+}
+.bounce, .flash, .pulse, .shake, .swing, .tada, .wobble, .bounceIn, .bounceInDown, .bounceInLeft, .bounceInRight, .bounceInUp, .bounceOut, .bounceOutDown, .bounceOutLeft, .bounceOutRight, .bounceOutUp, .fadeIn, .fadeInDown, .fadeInDownBig, .fadeInLeft, .fadeInLeftBig, .fadeInRight, .fadeInRightBig, .fadeInUp, .fadeInUpBig, .fadeOut, .fadeOutDown, .fadeOutDownBig, .fadeOutLeft, .fadeOutLeftBig, .fadeOutRight, .fadeOutRightBig, .fadeOutUp, .fadeOutUpBig, .flip, .flipInX, .flipInY, .flipOutX, .flipOutY, .lightSpeedIn, .lightSpeedOut, .rotateIn, .rotateInDownLeft, .rotateInDownRight, .rotateInUpLeft, .rotateInUpRight, .rotateOut, .rotateOutDownLeft, .rotateOutDownRight, .rotateOutUpLeft, .rotateOutUpRight, .slideInDown, .slideInLeft, .slideInRight, .slideOutLeft, .slideOutRight, .slideOutUp, .rollIn, .rollOut, .zoomIn, .zoomInDown, .zoomInLeft, .zoomInRight, .zoomInUp, .slideInUp{
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  visibility: visible!important;
+}
+
+.wp-caption{
+  margin:0;
+  padding:0;
+  font-size:13px;
+  max-width:100%;
+}
+.wp-caption-text{
+  margin:0;
+  padding:0;
+}
+.gallery-caption{
+  margin:0;
+  padding:0;
+}
+.bypostauthor{
+  margin:0;
+  padding:0;
+}
+.hovereffect a {
+  border: 1px solid #333;
+  padding: 10px;
+  color: #333333;
+  font-weight: bold;
+}
+.carousel-inner{
+  margin: 0;
+}
+.screen-reader-text {
+  position: absolute;
+  top:-9999em;
+  right:-9999em;
+}
+.sticky{ 
+  margin:0; 
+  padding:0; 
+  background-color:#d7d7d7;
+}
+.alignleft,
+img.alignleft{
+  display: inline; 
+  float: right; 
+  margin-left:20px; 
+  margin-top:4px; 
+  margin-bottom:10px; 
+  padding:0;
+  padding:5px;
+}
+.alignright, img.alignright { 
+  display: inline; 
+  float: left; 
+  padding:5px; 
+  margin-bottom:10px;
+  margin-right:25px;
+  padding:5px;
+}
+.aligncenter, img.aligncenter { 
+  clear: both; 
+  display: block; 
+  margin-right: auto; 
+  margin-left: auto; 
+  margin-top:0;
+  padding:5px; 
+}
+.comment-list .comment-content ul { 
+  list-style:none; 
+  margin-right:15px;
+}
+.comment-list .comment-content ul li{
+  margin:5px;
+}
+.toggleMenu{
+  display:none;
+}
+a.small-button{
+  background:#3890cb;
+  padding:5px 30px; 
+  border-radius:3px;
+  color:#fff;
+  display:table;
+  margin:0 auto;
+}
+a.small-button:hover{
+  color:#fff;
+  background:#0c5f96;
+}
+table, td, th {
+  border: 1px solid black;
+}
+/* ---------Buttons--------- */
+a.button{ 
+  border: 2px solid #3890cb ; 
+  background:#3890cb;
+  color: #fff;
+  font-size: 16px;
+  margin: 20px 0 0;
+  padding: 7px 30px;
+  text-transform: uppercase; 
+  font-weight:bold;
+}
+a.theme_button {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 28px;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+a.theme_white_button{
+  border: 2px solid #ffffff;
+  letter-spacing: 1px;
+  padding: 15px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 28px;
+  display: inline-block;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+  margin-top: 20px;
+
+}
+a.theme_white_button{
+  background-color: #ffffff;
+  color: #fc6352;
+}
+a.theme_button:hover {
+  color: #fc6352;
+  background: #ffffff;
+}
+a.theme_white_button:hover {
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+a.theme_orange_button{
+  background-color: #fc6352;
+  color: #ffffff;
+  border: 2px solid #fc6352;
+  letter-spacing: 1px;
+  padding: 15px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 28px;
+  display: inline-block;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+  margin-top: 20px;
+}
+a.theme_orange_button:hover {
+  color: #fc6352;
+  background: transparent;
+  border: 2px solid #fc6352;
+}
+
+/*------------------------- Headings --------------------------*/
+section h2{
+  font-weight:bold;
+  padding:0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  padding: 0 0 10px;
+  margin: 0;
+  letter-spacing: 3px;
+}
+section h3 {
+  font-weight: 700;
+  padding: 15px 0;
+  position: relative;
+}
+section h3::after {
+  position: absolute;
+  height: 3px;
+  width: 80px;
+  background-color: #fc6352;
+  bottom: 0px;
+  text-align: center;
+  content: "";
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+section h4{
+  font-size:20px;
+}
+section h5{
+  margin:0 0 10px 0; 
+  padding:0;
+}
+.innerbox{
+  background-size:100% 100%;
+}
+.owl-dots {
+    display: none;
+}
+
+/*--------------------- Section Heading------------------------*/
+.section-heading{
+  text-align: center;
+}
+.section-heading p{
+  max-width: 600px;
+  width: 100%;
+  margin: 15px auto 25px;
+  line-height: 24px;
+}
+
+/*-----------------Search pop up----------------*/
+.serach_outer {
+  width: 100%;
+  overflow: hidden;
+  transition: 0.5s;
+  z-index: 99999;
+  position: absolute;
+  top: 41px;
+  left: 5px;
+  display: none;
+}
+.serach_inner {
+  width: 100%;
+  padding: 10px;
+  float: left;
+  max-width: 510px;
+  background: #ffffff;
+}
+.closepop {
+  width: 100%;
+  text-align: left;
+  margin-left: 28px;
+}
+.serach_outer i {
+  font-size: 16px !important;
+  padding: 4px 0 0 0;
+  color: #fc6352;
+  cursor: pointer;
+  font-weight: bold;
+}
+.serach_inner form.search-form {
+  display: table;
+  border: 1px solid #fc6352;
+  padding: 7px 20px;
+  border-radius: 0;
+  background: #ffffff;
+  margin: 0 auto;
+  width: 100%;
+}
+.serach-page input.search-field {
+   padding: 10px;
+}
+button.search-submit {
+  border: 0;
+  background: transparent;
+}
+input.search-field {
+  border: none;
+  padding: 4px 0;
+  background: transparent;
+  width: 95%;
+}
+.social-media .dashicons{
+  margin: 0 6px;
+  padding: 0;
+}
+.menubar .social-media a:hover{
+  color:#3890cb;
+}
+.search-box span {
+  background-color: #fc6352;
+  padding: 12px 15px;
+  cursor: pointer;
+  display: inline-block;
+}
+.search-box i {
+  color: #ffffff;
+}
+/* --------------------------Header---------------------------- */
+.home.page-template #masthead {
+  background-color: transparent;
+  width: 100%;
+  padding: 20px 0;
+  position: absolute;
+  z-index: 999;
+}
+.home.page-template #masthead.scrolled {
+  background-color: #fc6352;
+}
+#masthead {
+  background-color: #fc6352;
+  padding: 10px;
+}
+#header .vw-mobile-app-logo img{
+  max-height: 123px;
+  width: auto;
+}
+#header {
+  width: 100%;
+  float: right;
+}
+#topbar {
+  border-top: 10px solid #435061;
+}
+.menubar {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: position 10s;
+  -ms-transition: position 10s;
+  -o-transition: position 10s;
+  transition: all 0.5s ease;
+}
+.neseted-inner {
+  top: 0;
+  position: absolute;
+}
+.continnerbox {
+  background-size: 100% 100%;
+  color: #fff;
+  border-top: 40px solid #435061;
+  border-right: 60px solid transparent;
+}
+#header .vw-mobile-app-logo, #vw-mobile-app-footer .vw-mobile-app-logo{
+  margin:0; 
+  padding: 0px 0; 
+}
+#header .vw-mobile-app-logo h1, #vw-mobile-app-footer .vw-mobile-app-logo h1{ 
+  font-weight:700; 
+  padding:0; 
+  margin-bottom:8px; 
+  font-size:30px; 
+  font-weight:bold; 
+  margin-top: 0; 
+}
+.vw-mobile-app-logo a.custom-logo-link{ 
+  color:#000000;
+}
+.vw-mobile-app-logo h1 a, .vw-mobile-app-logo h1 a{
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 26px;
+}
+.vw-mobile-app-logo p{ 
+  color: #ffffff;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+#header .top-contact{
+  padding:12px 0; 
+  font-size:15px;
+}
+.menubar .social-media{
+  padding:12px 0; 
+  text-align:center;
+}
+.scrolled {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  z-index: 9999999;
+  background:#fff;
+}
+#vw-mobile-app-site-navigation {
+    width: 100%;
+}
+/*----------------Menu bar-----------*/
+@keyframes smoothScroll {
+  0% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+ul.list_nav {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  text-align: left;
+}
+.vw-mobile-app-main-navigation ul{
+  list-style: none;
+  margin: 0;
+  padding-right: 0;
+  text-align: left;
+}
+.vw-mobile-app-main-navigation li{
+  position: relative;
+  padding: 15px;
+  display: inline-block;
+}
+.vw-mobile-app-main-navigation li:last-child{
+  border-left: none;
+}
+.vw-mobile-app-main-navigation a{
+  display: block;
+  text-decoration: none;
+  text-transform: none;
+  color: #ffffff;
+  padding: 0;
+  font-size: 16px;
+  position: relative;
+  font-weight: 400;
+}
+.vw-mobile-app-main-navigation a:hover{
+  color: #52565b;
+}
+.vw-mobile-app-main-navigation ul ul{
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100% ;
+  background: #F6F6F6;
+  min-width: 215px;
+  z-index: 9999;
+}
+
+.vw-mobile-app-main-navigation ul ul ul{
+  right: 100%;
+  top: 0;
+}
+
+.vw-mobile-app-main-navigation ul ul a{
+  text-transform: none;
+  font-weight: 400;
+  color: #1e1d1c;
+  padding: 8px 0px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.vw-mobile-app-main-navigation ul ul li,
+.menubar.scrolled .vw-mobile-app-main-navigation ul ul li{
+  float: none;
+  display: block;
+  text-align: right;
+  border-bottom: 1px solid #cccccc;
+}
+
+.vw-mobile-app-main-navigation ul ul li:last-child{
+  border-bottom: 0;
+}
+
+.vw-mobile-app-main-navigation ul li:hover > ul{
+  display: block;
+}
+
+.vw-mobile-app-main-navigation .current_page_item > a,
+.vw-mobile-app-main-navigation .current-menu-item > a,
+.vw-mobile-app-main-navigation .current_page_ancestor > a{
+  color: #52565b;
+}
+
+.vw-mobile-app-main-navigation .menu > ul > li.highlight{
+  background-color: #fc6352;
+}
+
+.vw-mobile-app-main-navigation .menu > ul > li.highlight:hover{
+  background: transparent;
+}
+
+.menubar.scrolled .menu > ul > li:hover > a:after,
+.menubar.scrolled .menu > ul > li.current_page_item > a:after,
+.menubar.scrolled .menu > ul > li.current-menu-item > a:after{
+  height: 2px;
+}
+
+.menu > ul > li.exoplanet-search:after{
+  background: transparent !important;
+}
+
+.vw-mobile-app-main-navigation ul ul li:hover > a{
+  color: #1e1d1c;
+}
+
+.site-main .comment-navigation,
+.site-main .posts-navigation,
+.site-main .post-navigation{
+  margin: 0 0 15px;
+  overflow: hidden;
+}
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous{
+  float: right;
+  width: 50%;
+}
+
+.comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next {
+  float: left;
+  text-align: left;
+  width: 50%;
+}
+
+/*----------------------Mobile Menu Icon------------------------------*/
+
+/*-----------------Superfish Menu------------------*/
+.sf-arrows .sf-with-ul{
+  padding-left: 15px;
+}
+
+.sf-arrows .sf-with-ul:after{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -2px;
+  height: 0;
+  width: 0;
+  border: 5px solid transparent;
+  border-top-color: #000000;
+}
+
+.sf-arrows ul .sf-with-ul:after{
+  margin-top: -5px;
+  margin-left: -3px;
+  border-color: transparent;
+  border-right-color: #888;
+}
+
+.sf-arrows ul li > .sf-with-ul:focus:after,
+.sf-arrows ul li:hover > .sf-with-ul:after,
+.sf-arrows ul .sfHover > .sf-with-ul:after{
+  border-right-color: #333;
+}
+.toggle-nav, a.closebtn{
+  display: none;
+}
+.vw-mobile-app-main-navigation ul ul li{
+  padding: 10px;
+}
+/*----------------------  index ---------------------------*/
+.post-section {
+    padding: 20px 0;
+}
+.postwrapper-box{
+  border: 2px solid #eeeeee;
+}
+.cat-box {
+  background: url(images/cat-icon.png) no-repeat 1px 3px;
+  padding: 0 25px 0 0;
+  font-style: italic;
+  font-weight: bold;
+  margin: 15px 0 30px 0;
+}
+.date-box {
+  background: url(images/date.png) no-repeat 1px 3px;
+  padding: 0 25px 0 0;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0 0 15px 0;
+}
+
+/*--------------------- Main Banner------------------------*/
+.banner_conent h2, .banner_conent p{
+  color: #ffffff;
+}
+.banner_conent h2{
+  font-size: 36px;
+}
+.righ-image {
+  text-align: left;
+  margin-top: 6em;
+}
+.banner_conent {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#main_banner {
+  background-size: 100% 100%;
+}
+/*------------------------- About-----------------------------*/
+.about_box:hover {
+  transition: all ease-in-out 300ms;
+  -moz-box-shadow: -8px 8px 1px 1px #dee2e6;
+  -webkit-box-shadow: -8px 8px 1px 1px #dee2e6;
+  box-shadow: -5px 5px 14px 0px #dee2e6;
+}
+.about_box {
+  padding: 20px 0;
+}
+.icon_about, .icon_news {
+  display: table;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff;
+}
+.about_box .icon_about i {
+  color: #fc6352;
+}
+.about_box i {
+  width: 45px;
+  color: #52565b;
+  transition-property: transform;
+}
+.about_box:hover i {
+  color: #52565b;
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotateY(360deg);
+  -moz-transform: rotateY(360deg);
+  -o-transform: rotateY(360deg);
+  -ms-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+}
+.read_more{
+  color: #52565b;
+}
+.read_more i{
+  width: auto;
+  padding-right: 5px;
+}
+#about {
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+  -vendor-animation-iteration-count: infinite;
+}
+
+/*------------------ Promo Banner ----------------*/
+.promo_conent h3, .promo_conent p {
+  color: #ffffff;
+}
+.promo_cta_btn {
+  text-align: left;
+}
+.inner_banner {
+  padding: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.promo_conent h3:after {
+  background-color: transparent;
+}
+/*------------------ Amazing Features ----------------*/
+.amazing-features-inner h3, .amazing-features-inner p {
+    color: #ffffff;
+}
+.amazing-features-inner h3:after{
+  background-color: #ffffff;
+}
+.features-box-icon {
+  padding: 20px 10px;
+  background-color: #ffffff;
+  text-align: center;
+}
+.features-box:hover .features-box-icon{
+  background-color: #fc6352;
+}
+.features-box:hover .features-box-icon i{
+  color: #ffffff;
+}
+.features-box-icon i {
+  font-size: 28px;
+  color: #fc6352;
+}
+.features-box-content h4 {
+  padding-top: 0;
+  color: #ffffff;
+}
+.center-image {
+  text-align: center;
+}
+.fdesc_box {
+  margin-top: 7em;
+}
+#amazing_features {
+  background-size: 100% 100%;
+  padding: 5em 0;
+}
+/*------------------ Awesome Screenshots-----------------*/
+.awesome_screenshot_inner .owl-dots {
+  padding-top: 25px;
+  text-align: center;
+  display: block;
+}
+.owl-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #fc6352;
+  border: solid 1px #fc6352;
+  display: inline-block;
+  margin: 5px 3px;
+  border-radius: 50%;
+  outline: none !important;
+}
+.owl-dot.active {
+  background-color: #2d313d;
+  border: solid 1px #2d313d;
+  border-radius: 20px;
+  width: 20px;
+}
+
+/*------------------ Plans Pricing-----------------*/
+.head_white{
+  color: #ffffff;
+}
+#plans_pricing {
+  background-size: 100% 100%;
+}
+#plans_pricing .price-heading-box {
+  padding: 7px 25px;
+  background-size: 100% 100%;
+  border-bottom: solid 2px #fc6352;
+  margin: 0 20px;
+}
+.price-box h3 {
+  border-right: none;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 36px;
+  padding: 0;
+}
+.price-box h3::after{
+  content: '' !important;
+  background-color: transparent !important; 
+}
+.price-box sub{
+  font-size: 12px;
+}
+.price-box p{
+  margin: 0;
+}
+#plans_pricing .price-heading-box h4 {
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#plans_pricing .price-heading-box h3 {
+  font-weight: bold;
+}
+#plans_pricing .price-heading-box h3 small{
+  display: block;
+  font-size: 14px;
+}
+#plans_pricing .select-plans a {
+    margin: 25px auto 0;
+    text-align: center;
+    display: table;}
+#plans_pricing .select-plans h4 a {
+  font-weight: bold;
+}
+#plans_pricing .plans-content ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+#plans_pricing .plans-content ul li {
+  padding: 15px 0;
+  border-bottom: dashed 1px #cccccc;
+  font-size: 16px;
+  text-align: center;
+}
+#plans_pricing .plans-content ul li span {
+  float: left;
+}
+#plans_pricing .price-box {
+  background-color: #ffffff;
+  margin-bottom: 25px;
+  padding: 25px 0;
+}
+.price-box2 .price-heading-box {
+  background: -o-linear-gradient(left, #f94b5b, #fc6352);
+  background: -moz-linear-gradient(left, #f94b5b, #fc6352);
+  background: -webkit-linear-gradient(right, #f94b5b, #fc6352);
+}
+.price-box2 .price-heading-box, .price-box2 .price-heading-box h4, .price-box2 .price-heading-box p, .price-box2 .price-heading-box h3{
+  color: #ffffff;
+}
+
+/*------------------------- Team -----------------------------*/
+.team_inner .vw-mobile-app-box{
+    text-align: center;
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    overflow: hidden;
+    position: relative;
+}
+.team_inner .vw-mobile-app-box img{
+    width: 100%;
+    height: auto;
+    transition: all 0.5s ease 0s;
+}
+.team_inner .team_outer:hover img{
+    transform: scale(1.2);
+    filter: grayscale(100%);
+}
+.team_inner .vw-mobile-app-box .box-content{
+    width: 95%;
+    height: 95%;
+    background: rgba(0,0,0,0.8);
+    padding: 18% 10px 0;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.team_inner .team_outer:hover .box-content{ opacity: 1; }
+.team_inner .vw-mobile-app-box .title{
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0 0 10px;
+}
+.team_inner .vw-mobile-app-box .post{
+    display: block;
+    font-size: 16px;
+    font-style: italic;
+    color: #daa520;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.team_inner .vw-mobile-app-box .icon{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    bottom: 2em;
+    width: 92%;
+}
+.team_inner .vw-mobile-app-box .icon li{ display: inline-block; }
+.team_inner .vw-mobile-app-box .icon li a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 0px;
+    position: relative;
+    transform: rotate(45deg);
+    transition: all 0.4s ease-in-out;
+}
+.team_inner .vw-mobile-app-box .icon li a:hover{ background-color: #fc6352; }
+.team_inner .vw-mobile-app-box .icon li a span{ display: block; }
+.team_inner .vw-mobile-app-box .icon li a span i{ transform: rotate(-45deg); }
+.team_inner .vw-mobile-app-box .icon li a:before,
+.team_inner .vw-mobile-app-box .icon li a:after,
+.team_inner .vw-mobile-app-box .icon li a span:before,
+.team_inner .vw-mobile-app-box .icon li a span:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all 0.4s ease-in-out 0s;
+}
+.team_inner .vw-mobile-app-box .icon li a span:before{
+    right: auto;
+    left: 0;
+}
+.team_inner .vw-mobile-app-box .icon li a span:after{
+    top: auto;
+    bottom: 0;
+}
+.team_inner .vw-mobile-app-box .icon li:nth-child(2) a:before,
+.team_inner .vw-mobile-app-box .icon li:nth-child(2) a:after,
+.team_inner .vw-mobile-app-box .icon li:nth-child(2) a span:before,
+.team_inner .vw-mobile-app-box .icon li:nth-child(2) a span:after{ transition-delay: 0.2s; }
+.team_inner .team_outer:hover .icon li a:before,
+.team_inner .team_outer:hover .icon li a span:before{
+    width: 3px;
+    height: 100%;
+}
+.team_inner .team_outer:hover .icon li a:after,
+.team_inner .team_outer:hover .icon li a span:after{
+  width: 100%;
+  height: 3px;
+}
+@media only screen and (max-width:990px){
+    .team_inner .vw-mobile-app-box{ margin-bottom: 30px; }
+}
+.team_outer:hover .team_desc {
+  position: relative;
+  top: -20px;
+  transition: all 0.4s ease-in-out 0s;
+}
+.team_desc {
+  background-color: #ffffff;
+  margin: 0 20px;
+  transition: all 0.8s ease 0s;
+}
+/*------------------------- Records -----------------------------*/
+.choose-box-content, .choose-box-content h4 {
+    color: #ffffff;
+}
+.choose-box-content h4{
+  font-size: 30px;
+}
+.choose-box-icon i {
+  font-size: 42px;
+  padding-top: 10px;
+  color: #ffffff;
+}
+/*--------------------Video Section----------------*/
+/* Outer */
+.popup {
+  width:100%;
+  height:100%;
+  display:none;
+  position:fixed;
+  top:0px;
+  right:0px;
+  background: rgba(0, 0, 0, 0.77);
+  z-index: 9999;
+}
+
+/* Inner */
+.popup-inner {
+  max-width:1000px;
+  width:90%;
+  position:absolute;
+  top:50%;
+  right:50%;
+  -webkit-transform:translate(50%, -50%);
+  transform:translate(50%, -50%);
+  border-radius:3px;
+}
+
+/* Close Button */
+.popup-close {
+  width:30px;
+  height:30px;
+  padding-top:4px;
+  display:inline-block;
+  position:absolute;
+  top:0px;
+  left:0px;
+  transition:ease 0.25s all;
+  -webkit-transform:translate(-50%, -50%);
+  transform:translate(-50%, -50%);
+  border-radius:1000px;
+  background:rgba(0,0,0,0.8);
+  font-family:Arial, Sans-Serif;
+  font-size:20px;
+  text-align:center;
+  line-height:100%;
+  color:#fff;
+}
+
+.popup-close:hover {
+  -webkit-transform:translate(-50%, -50%) rotate(-180deg);
+  transform:translate(-50%, -50%) rotate(-180deg);
+  background:rgba(0,0,0,1);
+  text-decoration:none;
+}
+.adopt_inner h2, .adopt-editor{
+  color: #ffffff;
+}
+.adopt_outer {
+  background: #f33e17;
+}
+.over_video{
+  position: relative;
+  text-align: center;
+}
+.ps_video {
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, -50%);
+  right: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+.ps_video i {
+  color: #ffffff;
+  font-size: 22px;
+  padding: 17px 19px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #fc6352;
+  cursor: pointer;
+}
+/*------------------------Testimonials -----------------------------*/
+#testimonials {
+  background-size: 100% 100%;
+  padding: 6em 0;
+}
+#tesimonial-record {
+  padding:0;
+}
+.record-inner {
+    margin-top: 6em;
+}
+#testimonials .fancy-title {
+  margin: 0 auto;
+}
+.inner-test-bg .short_text {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+}
+#testimonials .owl-carousel .owl-item img, #testimonials img {
+  width: 120px !important;
+  height: 120px;
+  margin: 0;
+  position: relative;
+  border-radius: 50%;
+  border: 7px solid #ffffff;
+  margin-top: -5em;
+  display: block;
+}
+#testimonials button.owl-prev {
+    position: absolute;
+    right: 0;
+    background: transparent;
+    border: none;
+    padding: 10px;
+}
+#testimonials button.owl-next {
+    position: absolute;
+    left: 0;
+    background: transparent;
+    border: none;
+    padding: 10px;
+}
+#testimonials button.owl-next i, #testimonials button.owl-prev i{
+  color: #2d313d;
+}
+#testimonials .testimonial_box, .test-shrtpg {    
+  padding: 20px 20px;
+  position: relative;
+  text-align: center;
+  background-color: #ffffff;
+}
+#testimonials .owl-dots{
+  display: block;
+  text-align: center;
+}
+#testimonials button.owl-dot {
+  background-color: #ffffff;
+}
+#testimonials button.owl-dot.active {
+  background-color: #2d313d;
+}
+#testimonials button:focus {
+  outline: inherit !important;
+}
+#testimonials h4.testimonial_name a {
+  color: #2d313d;
+}
+#testimonials cite {
+  font-size: 14px;
+  font-style: unset;
+  margin-right: 10px;
+}
+#testimonials blockquote {
+  font-size: 15px;
+  font-style: italic;
+  width: 100%;
+  margin: 0.25em 0;
+  padding: 0.25em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: #2d313d;
+  text-align: right;
+  font-weight: 300;
+}
+#testimonials blockquote:before {
+  display: block;
+  content: "\201C";
+  font-size: 80px;
+  position: absolute;
+  right: unset;
+  top: -37px;
+  color: #fc6352;
+  font-family: Georgia, serif;
+  left: 0;
+}
+h4.testimonial_name {
+  text-align: right;
+}
+#testimonials blockquote:after {
+  display: block;
+  content: "\201D";
+  font-size: 80px;
+  position: absolute;
+  left: 50px;
+  bottom: -70px;
+  color: #fc6352;
+  font-family: Georgia, serif;
+  right: 0;
+}
+.testimonials_outer {
+  padding-top: 6em;
+}
+/*------------------ Newsletter  -----------------*/
+#newsletter-section {
+  background-size: 100% 100%;
+  padding: 6em 0;
+}
+#newsletter-section .section-heading {
+  margin-top: 9em;
+}
+.newsletter-shortcode {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.newsletter-shortcode label{
+  text-align: right;
+  color: #ffffff;
+}
+#newsletter-section input[type="text"], #newsletter-section input[type="tel"], #newsletter-section input[type="email"], #newsletter-section input[type="phno"], #newsletter-section input[type="password"], #newsletter-section textarea {
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  color: #ffffff;
+}
+
+#newsletter-section input::-webkit-input-placeholder, #newsletter-section textarea::-webkit-input-placeholder  { /* Chrome/Opera/Safari */
+  color: #ffffff;
+}
+#newsletter-section input::-moz-placeholder, #newsletter-section textarea::-moz-placeholder { /* Firefox 19+ */
+  color: #ffffff;
+}
+#newsletter-section input:-ms-input-placeholder, #newsletter-section textarea:-ms-input-placeholder { /* IE 10+ */
+  color: #ffffff;
+}
+#newsletter-section input:-moz-placeholder, #newsletter-section textarea:-moz-placeholder { /* Firefox 18- */
+  color: #ffffff;
+}
+/*------------------Latest Post -----------------*/
+.latest_post_text span {
+    color: #000000;
+    font-weight: bold;
+}
+#latest_post .about-heading {
+  padding: 0;
+}
+.latest_post_text i{
+  color: #fc6352;
+  font-weight: bold;
+}
+.date_div {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: unset;
+  background-color: #fc6352;
+  background: -o-linear-gradient(left, #f94b5b, #fc6352);
+  background: -moz-linear-gradient(left, #f94b5b, #fc6352);
+  background: -webkit-linear-gradient(right, #f94b5b, #fc6352);
+  padding: 11px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.post_thumb {
+  position: relative;
+}
+h4.latest_post_name a {
+    font-weight: bold;
+}
+.tags{
+  padding: 25px 0 15px;
+  text-transform: uppercase;  
+}
+.tags a{
+  text-transform: capitalize;
+  border: solid 1px #66686b;
+  padding: 3px 15px;
+  border-radius: 15px;
+  color: #66686b;
+  margin: 2px 5px;
+  display: inline-block;
+}
+.discover-btn {
+  border-right: solid 5px #fc6352;
+  margin: 20px 0 0;
+}
+.discover-btn a {
+  color: #002b46;
+  font-size: 16px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+.discover-btn a:hover {
+  color: #fc6352;
+}
+#latest_post .owl-dots {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%)
+}
+#latest_post button.owl-dot {
+  width: 12px;
+  height: 12px;
+  margin: 2px;
+  background-color: #ffffff;
+  border: solid 2px #002b46;
+  display: block;
+  margin: 5px auto;
+}
+#latest_post button.owl-dot.active {
+  background-color: #fc6352;
+  border: solid 2px #fc6352;
+}
+#latest_post button:focus {
+  outline: inherit !important;
+}
+/*Postbox Hover*/
+.postbox .postpic{
+    position: relative;
+    overflow: hidden;
+}
+.postbox .postpic:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #000;
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+.postbox:hover .postpic:before{
+    opacity: 0.4;
+}
+.postbox .postpic:after{
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: -35%;
+    background: rgba(0, 0, 0, 0.6);
+    transform: rotate(-10deg);
+    transition: all 0.4s ease 0s;
+}
+.postbox:hover .postpic:after{
+    right: -50%;
+}
+.postbox .postpic img{
+    width: 100%;
+    height: auto;
+}
+.postbox .posticon-1,
+.postbox .posticon-2{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    opacity: 0;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+.postbox .posticon-1{  right: 0; }
+.postbox .posticon-2{ left: 0; }
+.postbox:hover .posticon-1,
+.postbox:hover .posticon-2{
+    opacity: 1;
+}
+.postbox .posticon-1 a,
+.postbox .posticon-2 a{
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    top: 47%;
+}
+.postbox .postbox-content {
+  text-align: center;
+  padding: 23px 30px;
+  transition: all 0.3s ease 0s;
+  transition: all ease-in-out 300ms;
+  -moz-box-shadow: -8px 8px 1px 1px #dee2e6;
+  -webkit-box-shadow: -8px 8px 1px 1px #dee2e6;
+  box-shadow: -5px 5px 14px 0px #dee2e6;
+}
+.postbox h3.posttitle a{
+    font-size: 18px;
+    color: #2d313d;
+    margin-top: 0;
+}
+.postbox .posttext{
+    display: block;
+    color: #2d313d;
+    transition: all 0.3s ease 0s;
+}
+.meta_listing li {
+  list-style: none;
+  display: inline;
+  padding: 3px;
+  color: #7f858d;
+}
+.meta_listing{
+  margin: 0;
+}
+.meta_listing li i{
+  margin-left: 5px;
+}
+h4.posttitle a{
+  color: #2d313d ;
+}
+/*------------------------- Our Records -----------------------------*/
+.record-box-icon i {
+  font-size: 36px;
+  color: #fc6352;
+}
+.record-box-content h4 {
+  font-size: 40px;
+}
+.record-box {
+  transition: all ease-in-out 300ms;
+  -moz-box-shadow: -8px 8px 1px 1px #dee2e6;
+  -webkit-box-shadow: -8px 8px 1px 1px #dee2e6;
+  box-shadow: -5px 5px 14px 0px #dee2e6;
+}
+.record-box{
+  padding: 20px;
+}
+#our_records {
+  padding: 50px 0;
+  background-size: 100% 100%;
+}
+#our_records .counter-icon {
+  text-align: right;
+}
+#our_records h4 {
+  font-size: 34px;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 34px;
+  padding: 0;
+}
+#our_records p {
+  font-size: 14px;
+  color: #ffffff;
+}
+#our_records .owl-dots {
+  text-align: center;
+  margin-top: 30px;
+}
+#our_records button.owl-dot {
+  width: 12px;
+  height: 12px;
+  margin: 2px;
+  background-color: #ffffff;
+  border: solid 2px #191b27;
+}
+#our_records button.owl-dot.active {
+  background-color: #ff6589;
+  border: solid 2px #ff6589;
+}
+#our_records button:focus {
+    outline: inherit !important;
+}
+#our_records .counter_inner {
+  margin-bottom: 20px;
+}
+/*------------------ Contact us -----------------*/
+.contact_us h3:after {
+    background-color: transparent;
+}
+.contact_us h3{
+  padding-bottom: 0;
+}
+.home_form_sec {
+  max-width: 100%;
+}
+.form_outer {
+  background: -o-linear-gradient(left, #f94b5b, #fc6352);
+  background: -moz-linear-gradient(left, #f94b5b, #fc6352);
+  background: -webkit-linear-gradient(right, #f94b5b, #fc6352);
+  padding: 30px 10px;
+}
+.form_outer label{
+  text-align: right;
+  color: #ffffff;
+  width: 100%;
+}
+.form_outer input[type="text"], .form_outer input[type="tel"], .form_outer input[type="email"], .form_outer input[type="phno"], .form_outer input[type="password"], .form_outer textarea {
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  color: #2d313d;
+  background-color: #ffffff;
+}
+
+.form_outer input::-webkit-input-placeholder, .form_outer textarea::-webkit-input-placeholder  { /* Chrome/Opera/Safari */
+  color: #2d313d;
+}
+.form_outer input::-moz-placeholder, .form_outer textarea::-moz-placeholder { /* Firefox 19+ */
+  color: #2d313d;
+}
+.form_outer input:-ms-input-placeholder, .form_outer textarea:-ms-input-placeholder { /* IE 10+ */
+  color: #2d313d;
+}
+.form_outer input:-moz-placeholder, .form_outer textarea:-moz-placeholder { /* Firefox 18- */
+  color: #2d313d;
+}
+.form_outer input[type="submit"] {
+  width: 100%;
+  background-color: #2d313d !important;
+  color: #ffffff !important;
+  border-radius: 6px;
+}
+.contact-info-home {
+  position: relative;
+  left: -4em;
+  background-color: #ffffff;
+  z-index: 99;
+  margin: 30px 0;
+  border-radius: 6px;
+  padding: 30px;
+  padding-bottom: 0;
+  -moz-box-shadow: -8px 8px 1px 1px #dee2e6;
+  -webkit-box-shadow: 0 0 32px #dee2e6;
+  box-shadow: 0 0 32px #dee2e6;
+  box-shadow: 0 0 32px #dee2e6;
+  right: 0;
+}
+/*------------------ Single Testimonials -----------------*/
+#testimonial_single .testimonial_des {
+    margin-bottom: 25px;
+    color: #555;
+    line-height: 24px;
+}
+#testimonial_single blockquote {
+  padding: 1.25em 40px;
+  color: #383838;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  width: 100%;
+}
+
+/*------------------ Single Team -----------------*/
+#team_single {
+  padding: 40px 0;
+}
+#team_single .posttype-box h1 {
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+  line-height: 40px;
+  letter-spacing: inherit;
+}
+#team_single .posttype-box img {
+  margin-bottom:20px;
+}
+#team_single .about-socialbox i {
+  background-color: #fc6352;
+  color: #ffffff;
+  padding: 10px;
+  margin: 15px 0;
+}
+#team_single .about-socialbox p {
+  text-align: justify;
+  font-size: 16px;
+}
+/*------------------------- Testimonial Shortcode --------------------------*/
+.testimonial_shortcodes {
+  padding: 0 !important;
+}
+.testimonial_shortcodes .testimonial_box{
+  border: 1px solid #fc6352;
+}
+.testimonial_shortcodes .textimonial-img img {
+  border: 3px solid #fc6352;
+}
+/*------------------ Contact Page -----------------*/
+h3.contact-page {
+  margin-right: 3%;
+  font-weight: bold;
+  color: #18304c;
+  border-bottom: solid 4px #d3da36;
+  display: table;
+  margin-bottom: 4%;
+}
+.contac_form {
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+.contac_form input[type='text'],
+.contac_form input[type='email'],
+.contac_form input[type='url'],
+.contac_form input[type='password'],
+.contac_form input[type='search'],
+.contac_form input[type='number'],
+.contac_form input[type='tel'],
+.contac_form input[type='range'],
+.contac_form input[type='date'],
+.contac_form input[type='month'],
+.contac_form input[type='week'],
+.contac_form input[type='time'],
+.contac_form input[type='datetime'],
+.contac_form input[type='datetime-local'],
+.contac_form input[type='color'],
+.contac_form select,
+.contac_form textarea,
+.contac_form .wpcf7 .wpcf7-form-control-wrap[class*="file-"] {
+  width: 100%;
+  background-color: #ffffff;
+  border-color: #ccc;
+  color: #2f3357;
+  border-radius: 0px;
+  box-shadow: none;
+  background-color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+}
+.contact-box .wpcf7 input[type="text"], .contact-box .wpcf7 input[type="email"] {
+  width: 100% !important;
+  font-size: 16px;
+  padding: 10px 10px;
+  margin: 0 0 23px 12px;
+  height: auto;
+  float: right;
+
+}
+.contac_form.col-md-12 {
+  margin-top: 20px;
+}
+section#contact-box{
+  padding:0;
+  margin:0;
+}
+.contact-info {
+  font-size: 14px;
+  line-height: 26px;
+  padding: 0;
+  width: 100%;
+}
+.inner-cont {
+  padding: 10px 0px;
+  background: #ffffff;
+}
+.contac_form h3 {
+  text-align: center;
+}
+.contact-email i, .contact-address i, .contact-phone i {
+  font-size: 25px;
+  color: #fc6352;
+  margin-left: 16px;
+}
+.contact-info .head{
+  color:#000;
+}
+.contact-address, .contact-email, .contact-phone {
+  margin: 20px 0;
+}
+.c_content span {
+  font-size: 18px;
+}
+.c_content p{
+  font-size: 16px;
+}
+.contac_form form {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.contac_form .fancy-title {
+    width: 250px;
+    margin: 0 auto;
+}
+.contac_form label{
+  width: 100%;
+}
+p.subtitle {
+  margin-top: 20px;
+}
+.socialbox a {
+  color: #ffffff;
+  padding: 7px 7px;
+  margin-left: 7px;
+  display: inline-block;
+  margin-bottom: 5px;
+  background-color: #fc6352;
+}
+.socialbox a:hover {
+  background: #2d313d;
+}
+.socialbox a i {
+  font-size: 13px;
+  letter-spacing: 3px;
+  width: 20px;
+  text-align: center;
+}
+/*---------------- Banner ----------------------*/
+.inner_banner img, .title-box img {
+    width: 100%;
+}
+
+/*---------------- Custom Footer ----------------------*/
+.form_outer {
+  background-color: rgba(255, 255, 255, 0.80);
+}
+.footer_form .section-heading {
+  margin: 6em 0;
+  text-align: center;
+}
+.footer-contactmap {
+  background-color: #333;
+}
+.footer_form {
+  padding: 50px 40px;
+}
+.footer_form .section-heading h3 {
+  color: #ffffff;
+  font-size: 18px;
+  display: table;
+  text-align: center;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 11px;
+}
+.footer_form .section-heading p{
+  color: #ffffff;
+}
+.footer_form input[type="text"], .footer_form  input[type="tel"], .footer_form  input[type="email"], .footer_form  input[type="phno"], .footer_form  input[type="password"], .footer_form  textarea {
+  border: 1px solid #424648;
+  font-size: 16px;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  height: auto;
+  width: 100%;
+  background: transparent;
+  color: #000000;
+  font-style: italic;
+}
+.footer_form  textarea {
+  height: 100px;
+}
+
+.footer_form input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #000000;
+}
+.footer_form input::-moz-placeholder { /* Firefox 19+ */
+  color: #000000;
+}
+.footer_form input:-ms-input-placeholder { /* IE 10+ */
+  color: #000000;
+}
+.footer_form input:-moz-placeholder { /* Firefox 18- */
+  color: #000000;
+}
+/*---------------- Footer Section ----------------------*/
+#custom_footer {
+  background-color: #000000;
+}
+.footer-top {
+  padding-bottom: 50px;
+}
+.footer-top-col h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.outer-footer {
+  background-size: 100% 100%;
+}
+#vw-mobile-app-footer form.search-form{
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+#vw-mobile-app-footer form.search-form input{
+  float: none;
+  border: 1px solid;
+  margin: 20px 2px;
+}
+#vw-mobile-app-footer input, #vw-mobile-app-footer textarea{
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+#vw-mobile-app-footer textarea{
+  height: 100px;
+}
+#vw-mobile-app-footer p.post-date {
+  color: #ffffff;
+  font-size: 11px !important;
+}
+.vw-mobile-app-copyright {
+  background-color: #2d313d;
+  border-top: 1px solid #2d313d;
+  background-size: cover;
+}
+.vw-mobile-app-copyright p {
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 0;
+  text-align: center;
+}
+.main_sociobox {
+  padding: 20px 0;
+}
+#vw-mobile-app-footer{ 
+  text-align:center;
+  color:#fff;
+  padding:3em 0px 0 0;
+  text-align:right;
+  background-color: #2d313d;
+}
+.footer_hide{
+  display:none;
+}
+.footer-top-col {
+  border-right: solid 5px #fc6352;
+  padding-right: 15px;
+}
+#vw-mobile-app-footer h3{
+  color:#fc6352;
+  text-align:right;
+  font-size:24px;
+  padding:0 0 17px 0;
+}
+#vw-mobile-app-footer .vw-mobile-app-copyright p{
+  font-size:14px;
+  text-align:center;
+  color:#ffffff;
+}
+#vw-mobile-app-footer .vw-mobile-app-copyright a {
+    color: #fff;
+  cursor: pointer;
+}
+#vw-mobile-app-footer input{
+  padding:8px 8px; 
+  float:right;
+  margin:5px 0;
+  border-radius:0px;
+}
+#vw-mobile-app-footer input[type="submit"] {
+  padding: 8px 10px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+#vw-mobile-app-footer .vw-mobile-app-copyright{
+  text-align:center;
+  margin:30px 0 0 0;
+  padding-top:40px;
+}
+#vw-mobile-app-footer ul {
+    margin: 0;
+}
+#vw-mobile-app-footer ul li{
+  list-style:none;
+  margin:0 0 5px 0;
+  text-align:right;
+  padding: 5px;
+}
+#vw-mobile-app-footer ul li a{
+  color:#ffffff;
+}
+#vw-mobile-app-footer p{
+font-size:14px;
+line-height: 20px;
+}
+.widget_recent_entries img {
+  width: 100px;
+}
+#vw-mobile-app-footer h3 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 20px;
+}
+#vw-mobile-app-footer h3:after {
+  position: absolute;
+  height: 2px;
+  width: 50px;
+  background-color: #fc6352;
+  bottom: 0px;
+  content: "";
+  left: 0;
+  right: 0;
+}
+.footer-cols {
+  padding-bottom: 40px;
+}
+.about_me table, .about_me td, .about_me th{
+  border: none;
+}
+.about_me p.message {
+    margin-bottom: 20px !important;
+}
+.vw-credit, .vw-credit a{
+  color: #ffffff;
+}
+
+/* --------- Contact Us widget ------- */
+.contact_us_widget i {
+  font-size: 26px;
+  background-color: #292837;
+}
+.contact_us_icon {
+  background-color: #292837;
+  padding: 12px;
+  text-align: center;
+}
+.contact_us_widget {
+  margin-bottom: 20px;
+}
+
+/* --------- Social Icon Widget ------- */
+.social_widget a {
+  color: #ffffff;
+  padding: 7px 7px;
+  margin-left: 7px;
+  display: inline-block;
+  margin-bottom: 5px;
+  background-color: #000000;
+}
+.social_widget a i {
+  font-size: 13px;
+  letter-spacing: 3px;
+  width: 20px;
+  text-align: center;
+}
+.social_widget a:hover{
+  background: #fc6352;
+}
+aside.widget {
+  margin-bottom: 20px;
+}
+/*-------------------------- Calendar widget --------------------------*/
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-width: 1px 1px 0 0;
+  margin: 0 0 1.75em;
+  table-layout: fixed;
+  width: 100%;
+}
+.widget.widget_calendar table {
+  margin: 0;
+}
+.widget.widget_calendar td, .widget.widget_calendar tr, .widget.widget_calendar th {
+    border: 1px solid #fff;
+    color: #000000;
+}
+#vw-mobile-app-footer .widget.widget_calendar td, #vw-mobile-app-footer .widget.widget_calendar tr, #vw-mobile-app-footer .widget.widget_calendar th {
+    color: #ffffff;
+}
+.widget_calendar td,
+.widget_calendar th {
+  line-height: 2.5625;
+  padding: 0;
+  text-align: center;
+}
+.widget_calendar caption {
+  font-weight: 900;
+  margin-bottom: 1.75em;
+  color: #000;
+  padding-right: 15px;
+}
+.widget_calendar tbody a {
+  background-color: #000000;
+  color: #fff;
+  display: block;
+  font-weight: 700;
+}
+.widget_calendar tbody a:hover,
+.widget_calendar tbody a:focus {
+  background-color: #686868;
+  color: #fff;
+}
+.widget th,
+.widget td {
+  padding: 0.5384615385em;
+}
+/* --------- search Page ------- */
+.postbox h6 {
+    font-weight: bold;
+}
+
+/* --------- Blog Page ------- */
+.postbox h3{
+  font-weight:normal;
+  font-size:35px;
+  text-align: center;
+}
+.blogimg-full img{
+  width: 100%;
+}
+.read-more-icon{
+  text-align: center;
+  margin: -55px 0 0 0;
+  z-index: 999;
+}
+.read-more-icon a:hover{
+  opacity: 0.9;
+}
+.continue-read a {
+  color: rgba(19, 10, 138, 0.6);
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  border: solid 1px #bbb;
+  padding: 10px 20px 10px 20px;
+  border-radius: 6px; 
+  display: block; 
+  background: #fff;
+}
+.continue-read a:hover{
+  background: #18304c;
+  color:#fff;
+}
+.continue-read {
+  margin: -22px auto 0 auto;
+  display: table;
+}
+.metabox img {
+  border-radius: 50%;
+  margin-right: 30%;
+}
+.postbox {
+   margin-bottom: 39px;
+   border: none;
+   border-radius: 6px;
+}
+.postbox h2{
+  margin:0 0 5px; 
+  font-weight:bold;
+}
+a.post-readmore {
+   font-size: 18px;
+   border-bottom: 1px solid;
+}
+a.post-readmore i {
+ margin-right: 8px !important;
+ font-size: 18px;
+ border-bottom: 1px solid #ffffff;
+ padding-bottom: 2px;
+}
+.widget_recent_entries li {
+  margin: 10px;
+}
+.postbox  a.blogbutton {
+  background:none;
+  color:#fff;
+  font-size:12px; 
+  font-weight:bold; 
+  color:#fff; 
+  padding:6px 25px;
+  border:1px solid #000; 
+  color:#000; 
+  font-size:18px;
+  text-transform:uppercase;
+  margin:25px 0 0 0;
+  display:table;
+}
+.blogbutton-small{
+  background:none;
+  font-size:12px; 
+  font-weight:bold; 
+  padding:6px 25px;
+  border:1px solid #000; 
+  color:#000; 
+  font-size:14px;
+  text-transform:uppercase;
+  margin:14px 0 0 0;
+  display:table;
+}
+.metabox {
+    color: #000;
+    padding: 5px 0;
+    clear: both;
+    margin: 10px 0;
+}
+.metabox .entry-date{
+  background:url('../images/date.png') no-repeat;
+  padding: 0 20px 0 0;
+  margin:0 0 0 13px;
+  background-position: right;
+}
+.metabox .entry-author{
+  background:url('../images/author.png') no-repeat;
+  padding: 0 20px 0 0;
+  margin:0 0 0 20px;
+  background-position: right;
+}
+.metabox .entry-comments{
+  background:url('../images/comments.png') no-repeat;
+  padding: 0 20px 0 0;
+  background-position: right;
+}
+#comment-nav-above .nav-links {
+  width: 100%;
+  float: right;
+  margin-bottom: 17px;
+}
+#vw-mobile-app-sidebar span.comment-author-link {
+    margin-right: 14px;
+}
+.post-featured img {
+  width: 100%;
+}
+/* --------- Inner Pages --------- */
+.more_info a {
+  background: #333;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 20px;
+}
+.more_info {
+  margin: 20px 0;
+}
+.more_info a:hover {
+  background: #ffffff;
+  color: #333333;
+}
+ol.carousel-indicators {
+  position: static !important
+}
+ol.carousel-indicators li {
+  max-width: 10px;
+  padding: 5px;
+  color: #333333;
+  border-radius: 50%;
+}
+/* ----------------------- POST---------------------- */
+a.page-numbers, span.page-numbers.current {
+  padding: 10px !important;
+  background: #fc6352 !important;
+  color: #ffffff !important;
+  border: 1px solid #fc6352 !important;
+}
+.navigation span.page-numbers.current{
+  background: #ffffff !important;
+  border: 1px solid #fc6352 !important;
+  color: #000000 !important;
+}
+.pagination a:hover{
+  color: #fff !important;
+}
+#blog{
+  padding-top:0;
+  margin-top:0;
+}
+.blog-post h5{
+  text-transform:uppercase;
+  color: #000;
+}
+.blog-icon i {
+  font-size: 20px;
+  background: #bbb;
+  border-radius: 50%;
+  padding: 10px 15px 12px 14px;
+  color: #fff;
+  margin-left: 1%;
+}
+.blog-icon i:hover {
+    background: #d3da36;
+    color: #fff;
+}
+.blog-icon i.fa-google-plus {
+    padding: 12px 11px 12px 10px
+}
+.feature-image-box img{
+  width:100%;
+}
+.feature-image-box img a:hover{
+  opacity:0.8;
+}
+.post-singlepage {
+  border: solid 1px #bbb;
+  box-shadow: 0 0 1px #bbb;
+}
+.bradcrumbs{
+  padding:30px 0;
+}
+.bradcrumbs a{
+  background:#f1f1f1; 
+  color:#000;
+  padding:5px 15px;
+  margin-left:5px;
+}
+.bradcrumbs a:hover{
+  background-color:#fc6352;
+}
+.bradcrumbs span{
+  background:#dddddd; 
+  color:#000;
+  padding:5px 15px;
+}
+/*------------------ Comments BOX ------------------*/
+#comments{
+  float: right;
+  width: 100%;
+  margin-top: 10px;
+}
+#comments h2.comments-title{
+  font-size:20px; 
+  font-weight:bold;
+}
+#comments h3.comment-reply-title{
+  font-size:20px; 
+  font-weight:bold;
+  clear:both;
+}
+#comments input[type="text"],
+#comments input[type="email"],
+#comments textarea{
+  padding:12px 10px; 
+  font-size:18px;
+}
+#comments input[type="submit"].submit {
+  padding: 10px 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+#comments a time{
+  color:#000;
+  font-weight:bold;
+  font-size:12px;
+}
+#comments .reply{
+  text-align:left;
+}
+#comments .comment-metadata{
+  width:90%;
+  float:right;
+  padding:1% 0 0 0;
+}
+#comments .comment-content{
+  width:90%;
+  text-align:right;
+  margin-right:7%;
+}
+#comments .comment-author{  
+  margin-bottom: 1em;
+}
+#comments h2#reply-title {
+  display: inline-table;
+}
+#comments .comment-author.vcard img {
+  padding: 2px;
+}
+/*--------------- Sidebar -----------------*/
+/* Sidebar */
+#vw-mobile-app-sidebar td#prev a {
+ color: #6c6c6c;
+}
+#vw-mobile-app-sidebar caption {
+ font-weight: bold;
+ color: #6c6c6c;
+ font-size: 20px;
+}
+#vw-mobile-app-sidebar table,#vw-mobile-app-sidebar th,#vw-mobile-app-sidebar td {
+ border: 1px solid #e1e1e1;
+ text-align: center;
+}
+#vw-mobile-app-sidebar td {
+ padding: 7px;
+ color: #6c6c6c;
+}
+#vw-mobile-app-sidebar th {
+ text-align: center;
+ padding: 5px;
+ color: #6c6c6c;
+}
+#vw-mobile-app-sidebar select {
+ padding: 10px 5px;
+ border: solid 1px #e1e1e1;
+ color: #6c6c6c;
+ background: transparent;
+}
+#vw-mobile-app-sidebar form{
+ text-align: center;
+}
+#vw-mobile-app-sidebar h3 {
+ font-size: 16px;
+ display: table;
+ color: #6a6a6a;
+ font-weight: 700;
+ letter-spacing: 2px;
+ background-color: #fff;
+ padding: 0px 10px;
+ margin: -28px auto 28px auto;
+}
+#vw-mobile-app-sidebar input[type="search"] {
+ padding:10px 10px;
+ font-size:15px;
+ margin-bottom: 10px;
+ color:#6c6c6c;
+ border: solid 1px #e1e1e1;
+ width: 100%;
+}
+#vw-mobile-app-sidebar label{
+ margin-bottom: 0;
+ width: 100%;
+}
+#vw-mobile-app-sidebar input[type="submit"] {
+ background-color :#fc6352 !important;
+ color:#fff !important;
+ padding:10px 0;
+ font-size:12px;
+ width: 100%;
+ letter-spacing: 2px;
+ font-weight: bold;
+}
+#vw-mobile-app-sidebar .widget {
+ padding: 20px;
+ border: 1px solid #e1e1e1;
+ margin-bottom: 50px;
+}
+#vw-mobile-app-sidebar ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ font-size: 17px;
+}
+#vw-mobile-app-sidebar ul li{
+ color: #6f6f6f;
+ font-size: 11px;
+ border-bottom: 1px solid #e1e1e1;
+}
+#vw-mobile-app-sidebar ul li a {
+ color: #000000;
+ font-size: 15px;
+ font-weight: 300;
+}
+#vw-mobile-app-sidebar .tagcloud a{
+ border: solid 1px #e1e1e1;
+ color:#6c6c6c;
+ font-size:15px !important;
+ padding:5px 18px;
+ margin:0 0 5px;
+ display:inline-block;
+}
+#vw-mobile-app-sidebar .tagcloud a:hover{
+ background:#ec1d23;
+ color: #fff;
+}
+span.credit_link a {
+  color: #fc6352;
+}
+
+/*------------- Page -----------------*/
+.title-box{
+  color:#fff;
+  text-transform:uppercase;  
+  font-weight:bold;
+  text-align:center;
+  margin-bottom:25px;
+}
+.title-box img{
+  width:100%;
+}
+.title-box h1 {
+  font-weight: bold;
+  text-shadow: 0 2px 2px rgba(255, 255, 255, 0.58);
+  font-size: 34px;
+}
+.above_title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 10%;
+}
+.read-moresec{
+  margin:2% 0;
+}
+.middle-content {
+  padding-bottom: 20px;
+}
+.shrtcod-pg{
+  border:1px solid #bbb;
+  /*background-color: #cbe9e2;*/
+}
+.shrt_socio i{
+  border: 1px solid #bbb;
+  padding: 10px;
+  margin-left: 10px;
+}
+/*---------------- Pagination ----------------*/
+.navigation {
+  font-size:14px; 
+  font-weight:bold;
+  margin: 10px 0;
+}
+ 
+.navigation a {
+  padding: 0;
+}
+.navigation span, .navigation a {
+  display: block;
+  float: right;
+  padding: 10px 15 0 15px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  color: #5b5b5b;
+  -webkit-transition: background .15s ease-in-out;
+  -moz-transition: background .15s ease-in-out;
+  -ms-transition: background .15s ease-in-out;
+  -o-transition: background .15s ease-in-out;
+  transition: background .15s ease-in-out;
+  font-weight: normal;
+}
+.navigation span.meta-nav {
+  font-weight: bold;
+}
+.navigation .current{
+  background: #333333; 
+  color:#ffffff;
+  font-weight:normal;
+}
+
+/* ------------- Category --------------------*/
+.category-page h4{
+  text-align: right !important;
+}
+ul.post-categories {
+  list-style: none;
+  margin: 0;
+}
+ul.post-categories a {
+  color: #333333;
+}
+.content_boxes {
+    padding: 0;
+    border: none;
+}
+.post_ctg span {
+  float: right;
+  margin-left: 7px;
+}
+/*-------------- Main Title ---------------*/
+.main_title h1:after{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #fc6352;
+  margin-top: 0px;
+  position: absolute;
+  left: 85px;
+}
+.share_icon i {
+  padding: 10px 8px 10px 10px;
+  margin: 0 0;
+  color: #ffffff;
+  background-color: #333333;
+  width: 36px;
+  margin: 0 4px;
+  text-align: center;
+}
+.share_icon i.fab.fa-facebook-f{
+  background-color: #3c5a99;
+}
+.share_icon i.fab.fa-linkedin-in{
+  background-color: #007bb5;
+}
+.share_icon i.fab.fa-google-plus-g{
+  background-color: #da4835;
+}
+.share_icon i.fab.fa-twitter{
+  background-color: #55acee;
+}
+.services_inner h4, .services_inner .short_text {
+    color: #ffffff;
+}
+.view-more {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.menubar.scrolled li.search-box {
+    display: block !important;
+}
+/*-------------- Owl crousel ---------------*/
+.owl-carousel .owl-item img {
+  /*width: auto !important;*/
+  margin: 0 auto;
+}
+#our_partners img{
+  width: auto !important;
+}
+button.owl-prev, button.owl-next {
+  background: #ffffff;
+  border: 1px solid #000;
+  padding: 6px 9px;
+}
+.owl-nav {
+  margin: 12px auto;
+  display: none;
+}
+button.owl-next.disabled, button.owl-prev.disabled {
+    background: #bbb;
+}
+/*-------------- Woocommerce ---------------*/
+.woocommerce .summary h1 {
+    font-size: 28px;
+}
+.woocommerce div.product form.cart div.quantity {
+  margin-left: 20px;
+}
+.woocommerce .quantity input{
+  padding: 5px 0px;
+}
+.woocommerce button.button.alt, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+  background-color: #fc6352 !important;
+  border-radius: 0;
+  padding: 10px 14px;
+  color: #ffffff !important;
+}
+.woocommerce div.product p.price, .woocommerce div.product span.price, .woocommerce ul.products li.product .price{
+  color: #fc6352;
+}
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover{
+  background: #ffffff;
+  color: #333333;
+  border: 1px solid #fc6352;
+}
+#contentwoocom {
+  padding: 20px 15px;
+}
+h2.woocommerce-loop-product__title {
+  text-align: center;
+}
+.woocommerce ul.products li.product .price{
+  text-align: center;
+}
+.woocommerce a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+  text-align: center;
+  margin: 0 auto;
+  display: table;
+  margin-bottom: 20px;
+}
+li.product {
+  border: 1px solid #ddd;
+  padding-bottom: 17px;
+}
+.woocommerce span.onsale{
+  background-color: #fc6352;
+}
+.woocommerce #customer_login .col-1, .woocommerce #customer_login .col-2{
+    max-width: 100%;
+}
+input#password, input#reg_password {
+    padding: 10px;
+}
+.woocommerce div.product form.cart .variations select{
+  background-color: #ffffff; 
+}
+.u-column1.col-1.woocommerce-Address, .u-column2.col-2.woocommerce-Address {
+    width: 100%;
+    max-width: 100%;
+}
+.woocommerce a.added_to_cart {
+    padding: 0 .5em .5em;
+    display: inline-block;
+}
+
+/*-------------- media section ---------------*/
+@media screen and (max-width:576px) {
+  .meta_listing li{
+    display: inline-block;
+  }
+  .meta_listing li{
+    margin-right: 0 !important;
+  }
+  .meta_listing a.theme_ogrange_button{
+    margin-bottom: 20px;
+  }
+  blockquote{
+    width: 100%;
+  }
+  #testimonials .owl-nav{
+    visibility: hidden;
+  }
+  #testimonials blockquote:after{
+    left:0;
+  }
+  .media-small {
+    padding-right: 10px !important;
+  }
+  .small_media {
+    padding: 10px 0;
+  }
+  .vw-mobile-app-copyright p{
+    text-align: center !important;
+    padding: 5px 0;
+  }
+  section h2{
+    font-size: 22px;
+  }
+  .above_title {
+    margin-top: 2%;
+  }
+  .menubar {
+    padding: 0 15px;
+  }
+  
+}
+
+@media screen and (max-width:767px) {
+  .home.page-template #masthead{
+    position: static;
+    background-color: #fc6352;
+  }
+  .banner_conent{
+    position: static;
+    transform: unset;
+  }
+  #main_banner, #amazing_features, #plans_pricing, #testimonials, #newsletter-section{
+    background-size: cover;
+  }
+  .promo_cta_btn{
+    text-align: right;
+  }
+  .fdesc_box, .record-inner{
+    margin-top: 1em;
+  }
+  .about_box {
+    margin-bottom: 30px;
+  }
+  .post_dec{
+    display: none;
+  }
+  .contact_details {
+    padding: 12px 0;
+    position: static;
+    left: 0;
+    top: 50%;
+    transform: unset;
+  }
+  .postbox h3{
+    line-height: 22px;
+  }
+  .postbox .postbox-content{
+    padding: 5px 15px;
+  }
+  .search-box span {
+    float: left;
+  }
+  .contact_details ul li{
+    text-align: right;
+    display: block;
+    color: #ffffff;
+    text-align: right !important;
+  }
+  .about-content a {
+    margin-bottom: 10px;
+  }
+  .about-content{
+    margin: 0;
+  }
+  #testimonials .owl-dots {
+    text-align: center;
+    margin-top: 20px;
+  }
+  #our_records h4, .counter_inner {
+    text-align: center;
+  }
+  .testimonialwrapper-box{
+    margin-bottom: 50px;
+  }
+  #header .vw-mobile-app-logo a.custom-logo-link{
+    position: static;
+  }
+  .mid-content {
+    position: static;
+    top: 0;
+    transform: unset;
+  }
+  .fadeInRight{
+    animation-name: unset !important;
+  }
+  .site-title{
+    font-size: 34px;
+  }
+  .vw-mobile-app-site-description{
+    font-size: 14px;
+  }
+  .main-header{
+    margin-bottom: 25px;
+  }
+  .header-title{
+    padding: 30px 0;
+  }
+  .main-title{
+    font-size: 30px;
+  }
+  #masthead{
+    min-height: 60px;
+  }
+  #masthead #site-branding img,
+  #masthead.scrolled #site-branding img{
+    max-height: 40px;
+    width: auto;
+  }
+  .vw-mobile-app-main-navigation li,
+  #masthead.scrolled .vw-mobile-app-main-navigation li{
+    display: block;
+    line-height: 1.5 !important;
+  }
+  .sf-arrows .sf-with-ul{
+    padding-left: 0;
+  }
+  .menu > ul > li > a{
+    padding: 10px 0;
+  }
+  .vw-mobile-app-main-navigation ul ul{
+    position: static;
+    width: 100%;
+    box-shadow: none;
+  }  
+  .slide-button-left,
+  .slide-button-right{
+    padding: 7px 25px 7px 25px;
+    min-width: 160px;
+    font-size: 16px;
+  }
+  .about-sec,
+  .about-image{
+    width: auto;
+    float: none;
+  }
+  .about-sec{
+    margin-bottom: 40px;
+  }
+  .about-image{
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .site-info{
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  #footer-menu ul {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .woocommerce div.product div.images .flex-control-thumbs{
+    margin: 10px 0 0 0;
+  }
+  .innermenubox {
+    position: static;
+  }
+  .contact-box .wpcf7 input[type="text"],
+  .contact-box .wpcf7 input[type="email"],
+  .contact-box .wpcf7 textarea{
+    width: 100% !important;
+  }
+}
+@media screen and (max-width:719px) {
+  .contact-info {
+    margin: 0 !important;
+  }
+  .search-box{
+    float: none;
+  }
+  .menubar .vw-mobile-app-nav ul li ul{
+    display:none; 
+    z-index:2;
+    font-weight:normal;
+  }
+  span{
+    text-align: center;
+  }
+}
+@media screen and (max-width: 991px) {
+  .post_dec{
+    display: none;
+  }
+  .contact-info-home{
+    left: 0;
+  }
+}
+@media screen and (max-width: 1199px) and (min-width: 768px){
+  #team .team-image img {
+    width: 100% !important;
+  }
+  .toggle-nav {
+    left: 0px;
+  }
+  .search-box{
+    float: none;
+  }
+  .search-box form.search-form{
+    margin: 0 auto;
+  }
+  .social-box .social-media {
+    padding-top: 21px;
+  }
+  #vw-mobile-app-footer input[type="submit"] {
+    padding: 9px 3%;
+  }
+  .socialbox a i{
+    font-size: 12px;
+    width: auto;
+  }
+  small {
+    font-size: 13px !important;
+  }
+  .teambox{
+    margin-bottom: 30px;
+  }   
+  .postbox{ 
+    margin-bottom: 20px; 
+  }
+}
+@media screen and (max-width: 1024px){
+  .thumb_image_border{
+    display: none;
+  }
+  .vw-mobile-app-main-navigation ul ul{
+    background-color: transparent;
+  }
+  .vw-mobile-app-main-navigation ul ul li, .menubar.scrolled .vw-mobile-app-main-navigation ul ul li{
+    border-bottom: none;
+  }
+  .toggle-nav {
+    display: block;
+    position: relative;
+    float: left;
+    left: 15px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    margin: 0 auto;
+    z-index: 999999;
+    left: 0;
+    text-align: left;
+    left: 0;
+    margin-left: 0;
+  }
+  .toggle-nav i {
+    font-size: 29px;
+    color: #000000;
+  }
+  .vw-mobile-app-sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9999999;
+    top: 0;
+    left: 0;
+    background-color: #2d313d;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .vw-mobile-app-sidenav a {
+    padding: 8px 32px 8px 8px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  .vw-mobile-app-sidenav a:hover {
+    color: #f1f1f1;
+  }
+  .vw-mobile-app-sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    font-size: 36px;
+    margin-right: 50px;
+    display: block;
+    color: #ffffff;
+  }
+  .vw-mobile-app-sidenav #vw-mobile-app-site-navigation {
+    width: 100%;
+  }
+  .toggle-nav span{
+    font-size:30px;
+    cursor:pointer; 
+    text-align: left;
+  }
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+  .innermenubox {
+    position: static;
+    padding-bottom: 10px;
+  }
+
+  .vw-mobile-app-main-navigation a{
+    color: #444;
+  }
+  .vw-mobile-app-main-navigation .menu{
+    float: none;
+    text-align: center;
+  }
+  .vw-mobile-app-main-navigation ul ul li,
+  #masthead.scrolled .vw-mobile-app-main-navigation ul ul li{
+    display: block;
+  }
+  .vw-mobile-app-main-navigation .menu > ul > li.highlight{
+    background: transparent !important;
+  }
+  .menu > ul > li:hover:before, 
+  .menu > ul > li.current_page_item:before, 
+  .menu > ul > li.current-menu-item:before{
+    display: none;
+  }
+  .sf-arrows .sf-with-ul:after{
+    border-top-color: #333;
+  }
+  .toggle i.fa.fa-bars,.toggle i.fa.fa-times {
+    float: left;
+    color: black;
+  }
+  .menubar .vw-mobile-app-nav ul{ 
+    width:100%;
+    margin-top:0; 
+  }
+  .menubar .vw-mobile-app-nav ul li,
+  .menubar.scrolled .vw-mobile-app-main-navigation li{
+    border-top:1px #303030 solid; 
+    display:block;
+    text-align:right;
+    float:none;
+    width: 100%;
+    padding: 5px;
+    width: 18rem;
+  }
+  .vw-mobile-app-nav ul li a{
+    padding:5px 10px; 
+    display:block; 
+    color:#ffffff;
+  }
+  .vw-mobile-app-nav ul li ul,
+  .vw-mobile-app-nav ul li ul ul{ 
+    display:block !important;
+  }
+  .vw-mobile-app-nav ul li ul li a:before{
+    content:"\00BB \00a0";
+  }
+  .vw-mobile-app-nav ul li ul li a{
+  padding-right:20px !important;
+  }
+  .vw-mobile-app-nav ul li ul li ul li a{
+    padding-right:30px !important;
+  }
+  .vw-mobile-app-main-navigation ul ul{
+    position: static;
+    width: 100%;
+    box-shadow: none;
+  }
+}
+.post-navigation a:hover .post-title, .post-navigation a:focus .post-title {
+    color: #5b5b5b !important;
+}
+nav.woocommerce-MyAccount-navigation ul li {
+    background: #f26252 !important;
+}
+.owl-stage-outer{
+   direction: ltr;
+}
