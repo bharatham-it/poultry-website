@@ -22,7 +22,7 @@ function vw_mobile_app_pro_plugin_string_limit_words($string, $word_limit) {
 define('vw_mobile_app_pro_plugin_SITE_URL','https://www.vwthemes.com/');
 /* Theme Credit link */
 function vw_mobile_app_pro_plugin_credit_link() {
-  echo esc_html_e('Design & Developed by','vw-mobile-app-pro-plugin'). "<a href=".esc_url(vw_mobile_app_pro_plugin_SITE_URL)." target='_blank'> VW Themes</a>";
+  echo esc_html_e('','vw-mobile-app-pro-plugin'). "<a href=".esc_url(vw_mobile_app_pro_plugin_SITE_URL)." target='_blank'></a>";
 }
 
 /* Customizer */
