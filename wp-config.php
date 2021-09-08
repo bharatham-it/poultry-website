@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'poultry_web' );
+define( 'DB_NAME', 'bharau7m_joys_website' );
 
 /** MySQL database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'bharau7m_joys_website' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'jvWLtrt}J$DW' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
